@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Jan 2018 – May 2020 ( Expected ): B.S. in Georgia Institution of Technology - Atlanta, GA    
-  * GPA: 3.72, Core GPA: 3.98
+  * GPA: 3.42, Core GPA: 3.68
   * Computer Science
   * Modeling and Simulation & Information and Networks
   * Research Field: Natural Language and Data Mining
