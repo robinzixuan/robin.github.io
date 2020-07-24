@@ -35,13 +35,13 @@ Work experience
    * Gloabal Security Monitor | Phantom Automation 
 * Splunk:Backend Software Engineering Intern                     	                       
    * May 2019 - Aug 2019   
-   * Gloabl Security SAE | File Exaction with Python and AWS
+   * Gloabl Security SAE / File Exaction with Python and AWS
 * Michigan Republican Party: Data Team Developer                                                            
   * Aug 2018 - Sept 2018
   * Midterm Election data Analysis with Python 
 * R2.ai Inc: Machine Learning Summer Intern                                       
   * June 2018 
-  * Cloud Computing Monitor | Financial data Analysis with Python 
+  * Cloud Computing Monitor / Financial data Analysis with Python 
 * DBAPP Security: Programmer Analyst Intern                                            
   * May 2017 - July 2017
   * Security data scrawling with python and Go
