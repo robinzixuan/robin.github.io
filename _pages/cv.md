@@ -32,7 +32,7 @@ Work experience
 ======
 * Splunk:Backend Software Engineering Intern                     	                       
    * June 2020 - Aug 2020   
-   * Gloabal Security Monitor | Phantom Automation 
+   * Gloabal Security Monitor / Phantom Automation 
 * Splunk:Backend Software Engineering Intern                     	                       
    * May 2019 - Aug 2019   
    * Gloabl Security SAE / File Exaction with Python and AWS
