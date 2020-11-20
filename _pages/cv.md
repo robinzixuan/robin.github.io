@@ -85,7 +85,7 @@ Projects
     * Analyzed the data which we got by Machine learning API; applied Java API to setup the function of the location finding.
 * Jan 2018: Worldwide Attacking & Protection Web Project ( HTML5 / Python / MongoDB )  
     * Used HTML5 to make Worldwide Attacking and Protection web. Set up the database and scrawled the data from web.
-* Jan 2019 - May 2019: WObject Relational Rest  ( JavaScript | Python | React | Redux | Django | PostgreSQL)
+* Jan 2019 - May 2019: Object Relational Rest  ( JavaScript/ Python / React / Redux / Django /PostgreSQL)
     * Designed and implemented a Restful API with the PostgreSQL, greatly convince the non-technology user can use the database without limitation
     * Delivered a React application to show up our Restful API on the computer
     * Used HTML5 to make Worldwide Attacking and Protection web. Set up the database and scrawled the data from web.
