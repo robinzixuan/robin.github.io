@@ -5,6 +5,7 @@ collection: publications
 permalink: /publication/Differentiable End-to-End Program Executor for Sample and Computationally Efficient VQA
 excerpt: 'We present a differentiable end-to-end program executor (DePe), which addresses Visual Question Answering (VQA) in a sample and computationally efficient manner. DePe parses the question into probabilistic programs and softly executes them to acquire the final answer. These functional programs adopt soft-logic functions to enable approximate probabilistic logic reasoning. In addition to the language, DePe also jointly learns visual object-centric representations in an end-to-end manner. We demonstrate through extensive experiments that DePe is more sample and computationally efficient than other VQA methodologies while retaining state-of-the-art performance.'
 date: 2020-10-1
+venue: 'ICLM 2021'
 paperurl: 'https://paperswithcode.com/paper/differentiable-end-to-end-program-executor'
 citation: 'Karan Samel, Zelin Zhao, Kuan Wang, Robin Luo, Binghong Chen, Le Song'
 ---
