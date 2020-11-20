@@ -1,20 +1,13 @@
 ---
 title: "Teaching experience 1"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "graduate course"
+permalink: 
+venue: "Georgia Intitute of Technology, CSE"
+date: 2020-08-15
+location: "Atlanta, United States"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+* Grade students’ projects and exams and provide feedback to facilitate improvement
+    * Have a solid understanding of algorithms in KMM, Gradient Model and Neural-Networks
+    * Provide students with the means to succeed by holding office hours and responding to questions online through the piazza
