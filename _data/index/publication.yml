@@ -1,0 +1,47 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Open-ended multi-modal relational reason for video question answering
+    i18n: Haozheng Luo, Ruiyang Qin
+  desc:
+    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822
+    i18n: company_a_desc
+  date:
+    detail: Dec. 2020
+    i18n: company_a_date
+  job:
+    detail: Graduate Teaching Assistant
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Differentiable End-to-End Program Executor for Sample and Computationally EfNicient VQA
+    i18n: company_b
+  desc:
+    detail: ICLR 2021 (Under Review) -  https://paperswithcode.com/paper/differentiable-end-to-end-program-executor  
+    i18n: company_b_desc
+  date:
+    detail: Oct 2020
+    i18n: company_b_date
+  job:
+    detail: Karan Samel*, Zelin Zhao*, Kuan Wang*, Haozheng Luo, Binghong Chen, Song Le
+    i18n: company_b_job
+  icon: fa-plus-square
+
+
+
+
+- name:
+    detail: Question ClassiNication with Deep Contextualized Transformer
+    i18n: company_c
+  desc:
+    detail: FICC 2021 -  https://arxiv.org/abs/1910.10492
+    i18n: company_c_desc
+  date:
+    detail: Oct 2019
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo, Ningwei Liu, Charles Feng
+    i18n: company_c_job
+  icon: fa-plus-square

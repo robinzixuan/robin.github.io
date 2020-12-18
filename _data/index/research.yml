@@ -1,0 +1,74 @@
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_a
+  desc:
+    detail:  Worked on the brat problem and built the pipeline of the NLP labeling application; Researched on the polysemy problem and used the BERT model to label the target words and phrase; Researched on the Operational Transformation Algorithm to make sure the several contributors modifying together in cloud.
+  date:
+    detail: Sept. 2020 
+    i18n: company_a_date
+  job:
+    detail: Graduate Research Assistant
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_b
+  desc:
+    detail:  Worked on Continuous Neuro-Symbolic VQA. In particular researched on the problem of soft logic function; Designed and implemented the reasoning model based on Bert, Bi-direction LSTM and Stack-NMN. Evaluated the performance with other VQA models; Researched on the Video Question Answering and designed the model with R(2+1)D to detect the action and movement of objects in videos; Publishing a paper in progress - Differentiable End-to-End Program Executor for Sample and Computationally Ef;icient VQA.
+    i18n: company_a_desc
+  date:
+    detail: Aug. 2020 - Oct 2020
+    i18n: company_b_date
+  job:
+    detail: Graduate Research Assistant
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_c
+  desc:
+    detail: Researched the visual question answering problem. Visual question answering using NS-VQA algorithm to classify the relationship of different objects in images and give out the answer of the GQA problem. Researched on the reasoning work and used the bi-directional LSTM to make some improvement on the reasoning work in VQA;Understood what the function of the VQA works and what the latest technology on solving the VQA problem
+  date:
+    detail: Aug. 2019 - May 2020
+    i18n: company_c_date
+  job:
+    detail: Undergraduate Research Assistant
+    i18n: company_c_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_d
+  desc:
+    detail: Developed a pipeline capable of analyzing the adsorption energy in chemical reactions by using Python and ASE API; Implemented a machine learning model capable to analyzing the structure of chemical molecular.
+  date:
+    detail: Jan. 2019 - May 2020
+    i18n: company_d_date
+  job:
+    detail: DFT Model Analyze Adsorption Energies Team
+    i18n: company_d_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_e
+  desc:
+    detail: Developed a pipeline that collects data provided by the stadium networks and analyzes collected data to give out a precise result to stadium staffs; Delivered a website tool capable to setting up a remote database for the LoPT database team.
+  date:
+    detail: Jan. 2018 - Dec 2018
+    i18n: company_e_date
+  job:
+    detail: VIP Georgia Tech – LoPt Database Team
+    i18n: company_e_job
+  icon: fa-plus-square
+  present: true
