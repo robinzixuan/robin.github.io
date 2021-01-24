@@ -1,6 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: DLWLRAT- A Tool for Integrating Weak Labeling Sources
+    i18n: Mengyang Liu *, Leonard Thong*, Haozheng Luo*, Yinhao Li, Chao Zhang, Le Song
+  desc:
+    detail: ACL 2021 (Under Review)
+    i18n: company_a_desc
+  date:
+    detail: Jan. 2021
+    i18n: company_a_date
+  icon: fa-plus-square
+  present: true
+
+
+
+- name:
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: Haozheng Luo, Ruiyang Qin
   desc:
@@ -9,9 +23,6 @@
   date:
     detail: Dec. 2020
     i18n: company_a_date
-  job:
-    detail: Graduate Teaching Assistant
-    i18n: company_a_job
   icon: fa-plus-square
   present: true
 
