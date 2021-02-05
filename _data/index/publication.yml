@@ -3,7 +3,7 @@
 
 
 - name:
-    detail: DLWLRAT- A Tool for Integrating Weak Labeling Sources
+    detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
     detail: ACL 2021 (Under Review)
