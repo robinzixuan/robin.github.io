@@ -54,9 +54,7 @@
     detail: Question ClassiNication with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: FICC 2021 -  https://books.google.com/books?hl=en&lr=&id=MMcpEAAAQBAJ&oi=fnd&
-    pg=PA453&dq=info:t2LAPYoM5MIJ:scholar.google.com&ots=auyJgs1uj_&sig=cAJgDR_c4vFET5QN
-    -qnqt1BTlCY#v=onepage&q&f=false
+    detail: FICC 2021 -  https://arxiv.org/abs/1910.10492
     i18n: company_c_desc
   date:
     detail: Oct 2019
