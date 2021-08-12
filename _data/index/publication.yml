@@ -6,7 +6,7 @@
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
-    detail: ACL 2021 (Under Review)
+    detail: EMNLP 2021 (Under Review)
     i18n: company_c_desc
   date:
     detail: Jan. 2021
@@ -34,10 +34,10 @@
 
 
 - name:
-    detail: Differentiable End-to-End Program Executor for Sample and Computationally EfNicient VQA
+    detail: HOW TO DESIGN SAMPLE AND COMPUTATIONALLY EFFICIENT VQA MODELS
     i18n: company_b
   desc:
-    detail: ICLR 2021 (Under Review) -  https://paperswithcode.com/paper/differentiable-end-to-end-program-executor  
+    detail:  preprint in arxiv -  https://arxiv.org/pdf/2103.11537.pdf
     i18n: company_b_desc
   date:
     detail: Oct 2020
@@ -54,7 +54,7 @@
     detail: Question ClassiNication with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: FICC 2021 -  https://arxiv.org/abs/1910.10492
+    detail: FICC 2021 -  https://books.google.com/books?hl=en&lr=&id=MMcpEAAAQBAJ&oi=fnd&pg=PA453&dq=info:t2LAPYoM5MIJ:scholar.google.com&ots=auyJgs1uj_&sig=cAJgDR_c4vFET5QN-qnqt1BTlCY#v=onepage&q&f=false
     i18n: company_c_desc
   date:
     detail: Oct 2019

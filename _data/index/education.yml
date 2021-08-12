@@ -1,4 +1,20 @@
 - name:
+    detail: Northwestern University
+    i18n: company_a
+  desc:
+    detail: Open-end Robotics @ Reinforcement Learning
+    i18n: company_a_desc
+  date:
+    detail: Augest. 2021
+    i18n: company_a_date
+  job:
+    detail: 
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
     detail: Georgia Institute of Technology
     i18n: company_a
   desc:
