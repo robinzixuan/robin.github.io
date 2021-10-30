@@ -1,0 +1,60 @@
+- name:
+    detail: Northwestern University
+    i18n: company_a
+  desc:
+    detail: Open-end Robotics @ Reinforcement Learning
+    i18n: company_a_desc
+  date:
+    detail: Augest. 2021
+    i18n: company_a_date
+  job:
+    detail: 
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_a
+  desc:
+    detail: GPA 3.7/4.0, VQA-related research @ Machine Learning Lab
+    i18n: company_a_desc
+  date:
+    detail: Augest. 2020
+    i18n: company_a_date
+  job:
+    detail: MS in Computer Science
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_b
+  desc:
+    detail: Graduate with High Hornor, GPA 3.53/4.0, NLP-related research @ Machine Learning Lab, Dean List
+    i18n: company_b_desc
+  date:
+    detail: Jan. 2018 - May 2020
+    i18n: company_b_date
+  job:
+    detail: BS in Computer Science
+    i18n: company_b_job
+  icon: fa-plus-square
+
+
+
+- name:
+    detail: Michigan State University
+    i18n: company_b
+  desc:
+    detail: Transfer to Georgia Institute of Technology with GPA 3.65/4.0
+    i18n: company_b_desc
+  date:
+    detail: Sept. 2016 - Dec 2017
+    i18n: company_b_date
+  job:
+    detail: BS in Computer Engineering
+    i18n: company_b_job
+  icon: fa-plus-square

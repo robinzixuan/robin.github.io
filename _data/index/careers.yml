@@ -1,0 +1,94 @@
+  # careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Georgia Institute of Technology
+    i18n: company_a
+  desc:
+    detail: I grade students’ projects and exams and provide feedback to facilitate improvement; Have a solid understanding of algorithms in KMM, Gradient Model and Neural-Networks; Provide students with the means to succeed by holding ofkice hours and responding to questions online
+    i18n: company_a_desc
+  date:
+    detail: Augest. 2020 - May 2021
+    i18n: company_a_date
+  job:
+    detail: Graduate Teaching Assistant
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Splunk
+    i18n: company_b
+  desc:
+    detail: I automated the process of sending security alerts through Slack and Email by developing an app that would be deployed on all windows machines at Splunk; Developed a pipeline that detects sensitive kiles used by customer support and implements the required retention policies.
+    i18n: company_b_desc
+  date:
+    detail: June. 2020 - Augest 2020
+    i18n: company_b_date
+  job:
+    detail: Backend Software Engineering Intern
+    i18n: company_b_job
+  icon: fa-plus-square
+
+
+
+
+- name:
+    detail: Splunk
+    i18n: company_c
+  desc:
+    detail: I designed and developed a customer support tool that automatically suggests answers to customer questions, by using Python/React.js/ Flask/Electron/TensorFlow and NLTK; Created a pipeline that updates the customer support knowledge base with customer support feedback from the previous tool, it potentially saved 35% of the original time.
+    i18n: company_c_desc
+  date:
+    detail: May 2019 - Augest 2019
+    i18n: company_c_date
+  job:
+    detail: Backend Software Engineering Intern
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: Michigan Republican Party
+    i18n: company_d
+  desc:
+    detail: I delivered a pipeline capable of predicting Twitter usernames from local residents' real names; Implemented a visualization tool that describes the analysis with several kinds of statistic chart
+    i18n: company_d_desc
+  date:
+    detail: Augest 2018 - September 2018
+    i18n: company_d_date
+  job:
+    detail: Data Team Developer
+    i18n: company_d_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: R2.ai Inc.
+    i18n: company_e
+  desc:
+    detail: I contributed work to the construction of a website tool which provides customers cloud-computing server; Designed a pipeline that tests machine learning functions which are inside web servers and compares results with common machine learning algorithms using Python and TensorFlow.
+    i18n: company_e_desc
+  date:
+    detail: June 2018 - Augest 2018
+    i18n: company_e_date
+  job:
+    detail: Machine Learning Summer Intern
+    i18n: company_e_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: DBAPP Security
+    i18n: company_f
+  desc:
+    detail: I developed a pipeline capable of scrawling data from the Common Vulnerability and Exposures website using Python and Selenium; Delivered the scrawled data into PostgreSQL
+    i18n: company_f_desc
+  date:
+    detail: May 2017 - July 2017
+    i18n: company_f_date
+  job:
+    detail: Programmer Analyst Intern
+    i18n: company_f_job
+  icon: fa-plus-square
+
+

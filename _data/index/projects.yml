@@ -1,0 +1,29 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Whole Health
+  i18n: Whole Health
+  img: /static/assets/img/landing/health.jpeg
+  desc: This project is my project. I designed and developed a remote database capable of storing the data and information needed by Whole Health mobile app; implemented a pipeline that analyzes the customer data and setups location kinding function by using Java API.
+
+- name: Worldwide Attacking & Protection Web Project
+  i18n: Worldwide Attacking & Protection Web Project
+  gh_user: robinzixuan
+  repo: attackmap
+  img: /static/assets/img/landing/attack.png
+  desc: This project is other's project. I designed and implemented a web capable of describing Cybersecurity attacking behavior in the world by HTML5; delivered a pipeline that scrawls the data from Kaspersky website and sets up a database to store scrawled data
+
+- name: Object Relational Rest
+  i18n: Object Relational Rest
+  gh_user: robinzixuan
+  repo: object-relational-rest
+  img: /static/assets/img/landing/postgresql.png
+  desc: This is another project. I designed and implemented a Restful API with the PostgreSQL, greatly convince the non-technology user can use the database without limitation; delivered a React application to show up our Restful API on the computer
+
+
+- name: create-twitter-name
+  i18n: create-twitter-name
+  gh_user: robinzixuan
+  repo: create-twitter-name
+  img: /static/assets/img/landing/twitter.png
+  desc: This is another project. 
