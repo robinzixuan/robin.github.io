@@ -3,6 +3,21 @@
 
 
 - name:
+    detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
+    i18n: company_c
+  desc:
+    detail: ICLR 2022 (Under Review)
+    i18n: company_c_desc
+  date:
+    detail: Sept. 2021
+    i18n: company_c_date
+  job:
+    detail: Guo Ye, Qinjie Lin, Tim Tsz-Kit Lau, Wanxin Jin, Cheng Zhou, Haozheng Luo, Zhuoran Yang, Zhaoran Wang, Han Liu
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
+- name:
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
@@ -63,3 +78,5 @@
     detail: Haozheng Luo, Ningwei Liu, Charles Feng
     i18n: company_c_job
   icon: fa-plus-square
+
+
