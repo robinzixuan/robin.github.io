@@ -1,4 +1,4 @@
-- name:; 
+- name:
     detail: Northwestern University 
     i18n: company_a
   desc: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
@@ -11,7 +11,7 @@
   icon: fa-plus-square
   present: true
 
-- name:; 
+- name:
     detail: Northwestern University 
     i18n: company_a
   desc: Work in Distributed Deep Reinforcement Leaning by implementing IQN model with Wasserstein GAN algorithm; Designed policy evaluation experiment with Atari Game Database  using the fixed policy inputting and compare the result with the baseline of the fixed policy; Developed policy optimization on the IQN model with the Wasserstein GAN algorithm
