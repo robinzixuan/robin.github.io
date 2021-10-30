@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
-  {% if page.desc %}
-    <meta content="{{ page.desc }}" name="description">
-  {% endif %}
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}">
-  {% endif %}
-  <meta name="author" content="{{ site.author.name }}">
-  <meta name="baseurl" content="{{ site.baseurl }}">
-
-  <title>
-    {% if page.title != "index" %}
-        {{ site.title }}|{{ page.title }}
-    {% else %}
-        {{ site.title }}
-    {% endif %}
-  </title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "/static/assets/img/favicon.ico" | prepend: site.baseurl }}">
-
-  <!-- Main CSS -->
-  <link href="{{ "/static/assets/app-20201217.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
-
-  <!-- Main Scripts -->
-  <script src="{{"/static/assets/app-20201217.min.js"| prepend: site.baseurl }}"></script>
-  <script src="{{"/static/assets/blog-20201217.min.js"| prepend: site.baseurl }}"></script>
-
-  <!-- Google AdSense -->
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-6196184620201217",
-      enable_page_level_ads: true
-    });
-  </script>
-</head>
-=======
 {% include base_path %}
 
 <meta charset="utf-8">
@@ -61,4 +19,3 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
->>>>>>> 734f72402d3a981d303a581baa688931c4cbf686
