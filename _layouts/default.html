@@ -2,30 +2,28 @@
 layout: compress
 ---
 
-{% include base_path %}
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+    {% if page.title != 'index' %}
+        {% include head.html %}
+    {% else %}
+        {% include index_head.html %}
+    {% endif %}
 
-  <body>
+<body id="page-top" class="landing-page">
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% if page.title != 'index' %}
+        {% include blog_header.html %}
+    {% endif %}
 
     {{ content }}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    {% if page.title != 'index' %}
+        {% include foot.html %}
+    {% else %}
+        {% include index_foot.html %}
+    {% endif %}
 
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>

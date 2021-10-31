@@ -3,6 +3,7 @@
 
 
 - name:
+<<<<<<< HEAD
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
   desc:
@@ -18,6 +19,8 @@
 
 
 - name:
+=======
+>>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
@@ -77,6 +80,10 @@
   job:
     detail: Haozheng Luo, Ningwei Liu, Charles Feng
     i18n: company_c_job
+<<<<<<< HEAD
   icon: fa-plus-square
 
 
+=======
+  icon: fa-plus-square
+>>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135

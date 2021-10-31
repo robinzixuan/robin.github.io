@@ -1,4 +1,5 @@
 - name:
+<<<<<<< HEAD
     detail: Northwestern University 
     i18n: company_a
   desc: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
@@ -39,6 +40,8 @@
   present: true
 
 - name:
+=======
+>>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135
     detail: Georgia Institute of Technology
     i18n: company_a
   desc:
