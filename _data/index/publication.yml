@@ -1,9 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-
 - name:
-<<<<<<< HEAD
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
   desc:
@@ -17,14 +15,11 @@
     i18n: company_c_job
   icon: fa-plus-square
 
-
 - name:
-=======
->>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
-    detail: EMNLP 2021 (Under Review)
+    detail: ACL 2022 (Under Review)
     i18n: company_c_desc
   date:
     detail: Jan. 2021
@@ -80,10 +75,4 @@
   job:
     detail: Haozheng Luo, Ningwei Liu, Charles Feng
     i18n: company_c_job
-<<<<<<< HEAD
   icon: fa-plus-square
-
-
-=======
-  icon: fa-plus-square
->>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135
