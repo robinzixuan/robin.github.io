@@ -29,7 +29,7 @@ author:   # change following line to your infomation.
   skill_icon2:
     - name: icon-go
     - name: icon-ghost
-  desc: I come from Hangzhou, Zhejiang, China. My professions are software development and machine learning. Outside of work, I play switch and traveling. I am lokking for the new PhD degree in computer science Fall 2022 # Describe yourself.
+  desc: I come from Hangzhou, Zhejiang, China. My professions are software development and machine learning. Outside of work, I play switch and traveling. **I am lokking for the new PhD degree in computer science Fall 2022** # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
