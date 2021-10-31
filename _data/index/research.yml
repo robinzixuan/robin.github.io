@@ -3,11 +3,11 @@
     i18n: company_a
   desc: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
   date:
-    detail: Oct. 2020 - Present
+    detail: Oct. 2021 - Present
     i18n: company_a_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_b_job
+    i18n: company_a_job
   icon: fa-plus-square
   present: true
 
@@ -20,7 +20,7 @@
     i18n: company_a_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_b_job
+    i18n: company_a_job
   icon: fa-plus-square
   present: true
 
@@ -34,10 +34,10 @@
     i18n: company_a_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_b_job
+    i18n: company_a_job
   icon: fa-plus-square
   present: true
-  
+
 - name:
     detail: Georgia Institute of Technology
     i18n: company_a
