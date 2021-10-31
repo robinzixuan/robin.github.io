@@ -37,7 +37,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   present: true
-  
+
 - name:
     detail: Georgia Institute of Technology
     i18n: company_a
