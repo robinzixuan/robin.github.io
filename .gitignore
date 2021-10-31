@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-_site/
-
-=======
 _site
 .sass-cache
 .jekyll-metadata
@@ -9,4 +5,3 @@ _site
 .DS_Store
 node_modules
 npm-debug.log
->>>>>>> 49f19289fa1bea14a6038b866c9acb5ecce0d135

@@ -1,40 +1,40 @@
 - name:
     detail: Northwestern University 
-    i18n: company_a
+    i18n: company_y
   desc: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
   date:
     detail: Oct. 2021 - Present
-    i18n: company_a_date
+    i18n: company_y_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_a_job
+    i18n: company_y_job
   icon: fa-plus-square
   present: true
 
 - name:
     detail: Northwestern University 
-    i18n: company_a
+    i18n: company_z
   desc: Work in Distributed Deep Reinforcement Leaning by implementing IQN model with Wasserstein GAN algorithm; Designed policy evaluation experiment with Atari Game Database  using the fixed policy inputting and compare the result with the baseline of the fixed policy; Developed policy optimization on the IQN model with the Wasserstein GAN algorithm
   date:
     detail: Sept. 2021 - Present
-    i18n: company_a_date
+    i18n: company_z_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_a_job
+    i18n: company_z_job
   icon: fa-plus-square
   present: true
 
 - name:
     detail: Northwestern University 
-    i18n: company_a
+    i18n: company_x
   desc:
     detail:  Worked on model-free reinforcement learning to show SOTA performance with our physical simulator; Implemented PPO, SAC algorithm to get and plot the reward of the reinforcement learning in our physical simulator; Published a paper in progress- “ RobLAX- A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning”
   date:
     detail: May. 2021 - Sept 2021
-    i18n: company_a_date
+    i18n: company_x_date
   job:
     detail: Graduate Research Assistant
-    i18n: company_a_job
+    i18n: company_x_job
   icon: fa-plus-square
   present: true
 
