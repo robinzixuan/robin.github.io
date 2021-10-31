@@ -1,7 +1,9 @@
 - name:
     detail: Northwestern University 
     i18n: company_y
-  desc: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
+  desc: 
+    detail: Researched on diffenets kinds of tabular data traning with deep learning technology based on CatBoost
+    i18n: company_y_desc
   date:
     detail: Oct. 2021 - Present
     i18n: company_y_date
@@ -14,7 +16,9 @@
 - name:
     detail: Northwestern University 
     i18n: company_z
-  desc: Work in Distributed Deep Reinforcement Leaning by implementing IQN model with Wasserstein GAN algorithm; Designed policy evaluation experiment with Atari Game Database  using the fixed policy inputting and compare the result with the baseline of the fixed policy; Developed policy optimization on the IQN model with the Wasserstein GAN algorithm
+  desc: 
+    detail: Work in Distributed Deep Reinforcement Leaning by implementing IQN model with Wasserstein GAN algorithm; Designed policy evaluation experiment with Atari Game Database  using the fixed policy inputting and compare the result with the baseline of the fixed policy; Developed policy optimization on the IQN model with the Wasserstein GAN algorithm
+    i18n: company_z_desc
   date:
     detail: Sept. 2021 - Present
     i18n: company_z_date
@@ -29,6 +33,7 @@
     i18n: company_x
   desc:
     detail:  Worked on model-free reinforcement learning to show SOTA performance with our physical simulator; Implemented PPO, SAC algorithm to get and plot the reward of the reinforcement learning in our physical simulator; Published a paper in progress- “ RobLAX- A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning”
+    i18n: company_x_desc
   date:
     detail: May. 2021 - Sept 2021
     i18n: company_x_date
@@ -43,6 +48,7 @@
     i18n: company_a
   desc:
     detail:  Worked on the brat problem and built the pipeline of the NLP labeling application; Researched on the polysemy problem and used the BERT model to label the target words and phrase; Researched on the Operational Transformation Algorithm to make sure the several contributors modifying together in cloud.
+    i18n: company_a_desc
   date:
     detail: Sept. 2020 - May 2021
     i18n: company_a_date
@@ -58,7 +64,7 @@
     i18n: company_b
   desc:
     detail:  Worked on Continuous Neuro-Symbolic VQA. In particular researched on the problem of soft logic function; Designed and implemented the reasoning model based on Bert, Bi-direction LSTM and Stack-NMN. Evaluated the performance with other VQA models; Researched on the Video Question Answering and designed the model with R(2+1)D to detect the action and movement of objects in videos; Publishing a paper in progress - Differentiable End-to-End Program Executor for Sample and Computationally Ef;icient VQA.
-    i18n: company_a_desc
+    i18n: company_b_desc
   date:
     detail: Aug. 2020 - Oct 2020
     i18n: company_b_date
