@@ -5,7 +5,7 @@
     detail: MAGICS Lab @ Northwestern University
     i18n: company_a_desc
   date:
-    detail: Augest. 2021
+    detail: Sept. 2022
     i18n: company_a_date
   job:
     detail: 
@@ -13,6 +13,20 @@
   icon: fa-plus-square
   present: true
 
+- name:
+    detail: Northwestern University
+    i18n: company_a
+  desc:
+    detail: GPA 3.92/4.0, MSIT @ Northwestern University
+    i18n: company_a_desc
+  date:
+    detail: Sept. 2021
+    i18n: company_a_date
+  job:
+    detail: 
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
 
 - name:
     detail: Georgia Institute of Technology
