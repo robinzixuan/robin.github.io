@@ -25,7 +25,7 @@
     detail: Jan. 2021
     i18n: company_c_date
   job:
-    detail: Mengyang Liu *, Leonard Thong*, Haozheng Luo*, Yinhao Li, Chao Zhang, Le Song
+    detail: Mengyang Liu *, Haozheng Luo*,Leonard Thong*, Yinhao Li, Chao Zhang, Le Song
     i18n: company_c_job
   icon: fa-plus-square
 
