@@ -44,6 +44,21 @@
     i18n: company_c_job
   icon: fa-plus-square
 
+
+- name:
+    detail: IBERT- Idiom Cloze-style reading comprehension with Attention
+    i18n: company_c
+  desc:
+    detail: preprint in arxiv - https://arxiv.org/abs/2112.02994
+    i18n: company_c_desc
+  date:
+    detail: May. 2021
+    i18n: company_c_date
+  job:
+    detail: Ruiyang Qin, Haozheng Luo, Zheheng Fan, Ziang Ren
+    i18n: company_c_job
+  icon: fa-plus-square
+
 - name:
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
