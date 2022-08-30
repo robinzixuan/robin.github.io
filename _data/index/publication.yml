@@ -1,6 +1,35 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+
+- name:
+    detail: IGN - Implicit Generative Networks
+    i18n: company_c
+  desc:
+    detail: preprint in arxiv - https://arxiv.org/abs/2206.05860
+    i18n: company_c_desc
+  date:
+    detail: March. 2022
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo, Tianyi Wu, Feiyu Han, Zhijun Yan, Jianfen Zhang
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: MBGDT:Robust Mini-Batch Gradient Descent 
+    i18n: company_c
+  desc:
+    detail: preprint in arxiv - https://arxiv.org/abs/2206.07139
+    i18n: company_c_desc
+  date:
+    detail: Dec. 2021
+    i18n: company_c_date
+  job:
+    detail: Hanming Wang *, Haozheng Luo *, Yue Wang *
+    i18n: company_c_job
+  icon: fa-plus-square
+
 - name:
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
@@ -19,7 +48,7 @@
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
-    detail: ACL 2022 (Under Review)
+    detail: preprint in arxiv- https://arxiv.org/abs/2208.10241
     i18n: company_c_desc
   date:
     detail: Jan. 2021
@@ -34,7 +63,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: HRI 2022(Under Review) -  https://arxiv.org/abs/2012.00822
+    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822
     i18n: company_c_desc
   date:
     detail: Dec. 2020
