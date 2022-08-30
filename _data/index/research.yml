@@ -2,7 +2,7 @@
     detail: Northwestern University 
     i18n: company_y
   desc: 
-    detail: Researched on Finance Chatbot with the global economy data. 
+    detail:Worked on chatbot in the various situation. Now we are working on building the chatbot for the Rinance using. We now try to build the largest academic Rinance dataset to support the use of the Rinance chatbot. Research on the Data Acquisition Robot model with another PhD student to acquire the data from the website. Our purpose is the user can use least programming code, only use the conRig Rile to help them download the data they need as soon as possible. Research on the work for Natural Language to SQL. Work with the BERT model to encoder and decoder the natural language in the Rinance to the SQL searching language for the Rinical database. Different with the RatSQL, our goal more focus on the Precise searching result rather than the SQL scheme itself.
     i18n: company_y_desc
   date:
     detail: Dec. 2021 - Present
