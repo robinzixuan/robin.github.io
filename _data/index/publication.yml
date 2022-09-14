@@ -6,7 +6,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2206.05860
+    detail: preprint in arxiv - https://arxiv.org/abs/2206.05860 (Accepted by ICMLA)
     i18n: company_c_desc
   date:
     detail: March. 2022
@@ -78,7 +78,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822
+    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822 (Review for HRI 2023)
     i18n: company_c_desc
   date:
     detail: Dec. 2020
