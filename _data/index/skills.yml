@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Python, Java, C++, C, Go, ReactJS, HTML, JS,MongoDB, Matlab, MySQL, PostgreSQL, SPL, Motivation, Innovation, Github, Rust
-percentage: 100, 90, 50, 75, 35, 65, 75, 78, 85,55, 95, 95, 85, 75, 90,80, 75
+aspects: Python, Java, C++, C, Go, ReactJS, HTML, JS,MongoDB, Matlab, MySQL, PostgreSQL, SPL, Motivation, Innovation, Github, Rust, Bash
+percentage: 100, 90, 50, 75, 55, 65, 75, 78, 85,55, 95, 95, 85, 75, 90,80, 75, 60
