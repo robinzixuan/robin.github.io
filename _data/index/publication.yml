@@ -49,7 +49,7 @@
     detail: IBERT- Idiom Cloze-style reading comprehension with Attention
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2112.02994
+    detail: preprint in arxiv - https://arxiv.org/abs/2112.02994 (Review by ACL ARR 2022 Oct)
     i18n: company_c_desc
   date:
     detail: May. 2021
@@ -78,7 +78,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822 (Review for HRI 2023)
+    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822 
     i18n: company_c_desc
   date:
     detail: Dec. 2020
