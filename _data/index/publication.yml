@@ -20,7 +20,7 @@
     detail: MBGDT:Robust Mini-Batch Gradient Descent 
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2206.07139
+    detail: preprint in arxiv - https://arxiv.org/abs/2206.07139 (Review by ECIR 2023)
     i18n: company_c_desc
   date:
     detail: Dec. 2021
@@ -34,7 +34,7 @@
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
   desc:
-    detail: ICLR 2022 (Under Review)
+    detail: ICLR 2023 (Under Review)
     i18n: company_c_desc
   date:
     detail: Sept. 2021
