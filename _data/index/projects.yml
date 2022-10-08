@@ -1,12 +1,12 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Whole Health
-  i18n: Whole Health
+- name: Snake Robot Simulator
+  i18n: Snake Robot Simulator
   gh_user: robinzixuan
-  repo: GSUhacks-gymapp
-  img: /static/assets/img/landing/health.jpeg
-  desc: This project is my project. I designed and developed a remote database capable of storing the data and information needed by Whole Health mobile app; implemented a pipeline that analyzes the customer data and setups location kinding function by using Java API.
+  repo: 3-linked-snake-robot-simulation
+  img: /static/assets/img/landing/snake.jpeg
+  desc: This project is my project. I designed and developed a Snake robot simulator with the ROS API ans python programming code.
 
 - name: Worldwide Attacking & Protection Web Project
   i18n: Worldwide Attacking & Protection Web Project
@@ -23,9 +23,9 @@
   desc: This is another project. I designed and implemented a Restful API with the PostgreSQL, greatly convince the non-technology user can use the database without limitation; delivered a React application to show up our Restful API on the computer
 
 
-- name: create-twitter-name
-  i18n: create-twitter-name
+- name: Chatbot
+  i18n: chatbot
   gh_user: robinzixuan
-  repo: create-twitter-name
-  img: /static/assets/img/landing/twitter.png
-  desc: This is another project. 
+  repo: rasa-baseline
+  img: /static/assets/img/landing/rasa.png
+  desc: This is another project. I designed and implemented a Rasa project to make a clothes chatbot application.
