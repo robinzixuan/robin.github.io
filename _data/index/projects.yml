@@ -3,6 +3,8 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Whole Health
   i18n: Whole Health
+  gh_user: robinzixuan
+  repo: GSUhacks-gymapp
   img: /static/assets/img/landing/health.jpeg
   desc: This project is my project. I designed and developed a remote database capable of storing the data and information needed by Whole Health mobile app; implemented a pipeline that analyzes the customer data and setups location kinding function by using Java API.
 
