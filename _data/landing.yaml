@@ -53,14 +53,15 @@
   tpl: miscellaneous.html
   css: 
 
+- id: Contact
+  i18n: nav.contact
+  name: Contact
+  tpl: Contact.html
+  css: Contact
+
 - id: links
   i18n: nav.link
   name: Links
   tpl: links.html
   css: contact
 
-- id: Contact
-  i18n: nav.contact
-  name: Contact
-  tpl: Contact.html
-  css: Contact
