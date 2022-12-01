@@ -47,6 +47,14 @@
   tpl: projects.html
   css: project
 
+- id: reward
+  i18n: nav.contact
+  name: Contact
+  tpl: reward.html
+  css: Contact
+
+
+
 - id: miscellaneous
   i18n: nav.miscellaneous
   name: Miscellaneous
@@ -56,8 +64,10 @@
 - id: Contact
   i18n: nav.contact
   name: Contact
-  tpl: Contact.html
+  tpl: contact.html
   css: Contact
+
+
 
 - id: links
   i18n: nav.link
