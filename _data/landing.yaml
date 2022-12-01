@@ -48,10 +48,10 @@
   css: project
 
 - id: reward
-  i18n: nav.contact
-  name: Contact
+  i18n: nav.reward
+  name: Reward
   tpl: reward.html
-  css: Contact
+  css: 
 
 
 
