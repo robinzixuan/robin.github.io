@@ -47,10 +47,10 @@
   tpl: projects.html
   css: project
 
-- id: reward
-  i18n: nav.reward
-  name: Reward
-  tpl: reward.html
+- id: awards
+  i18n: nav.awards
+  name: Awards
+  tpl: award.html
   css: 
 
 
