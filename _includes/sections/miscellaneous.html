@@ -1,36 +1,42 @@
-<div class="container" id="i18_miscellaneous">
-  <div class="row m-b-lg">
-      <div class="col-lg-12 text-center">
-          <div class="navy-line"></div>
-          <h1><span data-i18n="miscellaneous.miscellaneous">Miscellaneous</span></h1>
-      </div>
-  </div>
-  <div class="row">
-  {% for link in site.data.index.links %}
-      {% assign loopindex = forloop.index | modulo: 3 %}
-      {% if forloop.last %}
-          {% if forloop.last == forloop.first %}
-      <div class="col-sm-4 col-sm-offset-4 wow zoomIn">
-              {% else %}
-      <div class="col-sm-4 wow {% if loopindex != 0 %} col-sm-offset-4 fadeInRight {% else %} zoomIn {% endif %}">
-          {% endif %}
-      {% else %}
-      <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else if loopindex == 2 %} zoomIn {% else %} fadeInRight {% endif %}">
-      {% endif %}
-      <div class="team-member">
-          <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
-          <p>{{ link.desc }}</p>
-          <ul class="list-inline social-icon">
-              <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
-              </li>
-          </ul>
-      </div>
-      </div>
-  {% endfor %}
-  </div>
-  <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-          <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
-      </div>
-  </div>
 </div>
+<h2>25-25 Project</h2>
+<p>Hopefully before I am 25-year-ago, I can</p>
+<ul>
+<li><p><b>Visit 25 countries / regions</b> (7/25)<br />
+🇨🇳China, 🇭🇰Hong Kong, 🇯🇵Japan,  🇺🇸United States.<br />
+</p>
+</li>
+<li><p><b>Visit 25 provinces in China</b> <font color=red>(25/25)</font><br />
+Beijing, Inner Mongolia, 
+Liaoning, Jilin, Heilongjiang, 
+Shanghai, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Shandong, 
+Henan, Hubei, Hunan, Guangdong, Guangxi, Hainan, 
+Chongqing, Sichuan, Guizhou, Yunnan, 
+Shaanxi, Gansu, Qinghai.</p>
+</li>
+<li><p><b>Visit 25 states in the US</b> (7/25)<br />
+CA, IL, IN, MA, TX, UT, WI.</p>
+</li>
+<li><p><b>Finish 250,000 kilometers flight by air</b> (179,558/250,000)</p>
+</li>
+</ul>
+<script>
+function openNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+    }
+}
+function closeNav() {
+    if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setInterval(
+            function(){ location.reload() },
+            500
+        );
+    }
+}
+</script>
