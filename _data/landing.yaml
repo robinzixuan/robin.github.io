@@ -58,3 +58,9 @@
   name: Links
   tpl: links.html
   css: contact
+
+- id: Contact
+  i18n: nav.contact
+  name: Contact
+  tpl: Contact.html
+  css: Contact
