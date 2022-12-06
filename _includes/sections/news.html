@@ -1,0 +1,40 @@
+<div class="container" id="i18_news">
+  <div class="row m-b-lg">
+      <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h1><span data-i18n="news.my_news">News</span></h1>
+      </div>
+  </div>
+
+  <ul>
+  <li><p>
+    A conference paper <a href="https://arxiv.org/abs/2206.05860">"IGN : Implicit Generative Networks"</a> is accepted by ICMLA 2022.
+  </p>
+  </li>
+  <li><p>
+    I start my PhD study in Northwestern University!
+  </p>
+  </li>
+  </ul>
+  <script>
+  function openNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "280px";
+          document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+          document.getElementById("layout-content-container").style.position = "fixed";
+      }
+  }
+  function closeNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "0";
+          document.getElementById("layout-content-container").style.position = "static";
+          document.getElementById("layout-content-container").style.marginLeft = "0px";
+          setInterval(
+              function(){ location.reload() },
+              500
+          );
+      }
+  }
+  </script>
+</div>
+<br>
