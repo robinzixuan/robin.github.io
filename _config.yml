@@ -5,7 +5,7 @@ title: Robin(Haozheng) Luo
 description: Jack's blog,use Jekyll and github pages.
 keywords: Robin
 baseurl:  '/robin.github.io' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://hluo76.github.io/robin.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://hluo.github.io/robin.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /robin.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
