@@ -6,7 +6,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2206.05860 (Accepted by ICMLA)
+    detail: ICMLA 2022 - https://arxiv.org/abs/2206.05860 
     i18n: company_c_desc
   date:
     detail: March. 2022
@@ -20,7 +20,7 @@
     detail: MBGDT:Robust Mini-Batch Gradient Descent 
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2206.07139 (Review by ECIR 2023)
+    detail: preprint in arxiv - https://arxiv.org/abs/2206.07139 
     i18n: company_c_desc
   date:
     detail: Dec. 2021
@@ -49,7 +49,7 @@
     detail: IBERT- Idiom Cloze-style reading comprehension with Attention
     i18n: company_c
   desc:
-    detail: preprint in arxiv - https://arxiv.org/abs/2112.02994 (Review by ACL ARR 2022 Oct)
+    detail: preprint in arxiv - https://arxiv.org/abs/2112.02994 
     i18n: company_c_desc
   date:
     detail: May. 2021
@@ -111,7 +111,7 @@
     detail: Question ClassiNication with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: FICC 2021 -  https://arxiv.org/abs/1910.10492
+    detail: FICC 2021 -  https://link.springer.com/chapter/10.1007/978-3-030-73103-8_32
     i18n: company_c_desc
   date:
     detail: Oct 2019
