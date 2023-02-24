@@ -2,7 +2,7 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: Cyclic-Block Hyperparameter Search
+    detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
     i18n: company_c
   desc:
     detail: Review by ICML2023
@@ -11,7 +11,7 @@
     detail: Jan. 2023
     i18n: company_c_date
   job:
-    detail: Haozheng Luo, Tianyi Wu, Feiyu Han, Zhijun Yan, Jianfen Zhang
+    detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Han Liu
     i18n: company_c_job
   icon: fa-plus-square
 
