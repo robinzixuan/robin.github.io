@@ -1,6 +1,19 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name:
+    detail: Cyclic-Block Hyperparameter Search
+    i18n: company_c
+  desc:
+    detail: Review by ICML2023
+    i18n: company_c_desc
+  date:
+    detail: Jan. 2023
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo, Tianyi Wu, Feiyu Han, Zhijun Yan, Jianfen Zhang
+    i18n: company_c_job
+  icon: fa-plus-square
 
 - name:
     detail: IGN - Implicit Generative Networks
