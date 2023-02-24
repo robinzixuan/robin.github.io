@@ -3,6 +3,20 @@
 
 
 - name:
+    detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
+    i18n: company_c
+  desc:
+    detail: Review by ICML2023
+    i18n: company_c_desc
+  date:
+    detail: Jan. 2023
+    i18n: company_c_date
+  job:
+    detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Han Liu
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
