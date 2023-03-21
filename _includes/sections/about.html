@@ -1,3 +1,4 @@
+
 <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
@@ -59,14 +60,42 @@
         </div>
         {% endfor %}
     </div>
+    <script>
+        today = new Date()
+        past = new Date(2022,09,20) // remember this is equivalent to 06 01 2010
+        //dates in js are counted from 0, so 05 is june
+        
+        function calcDate(date1,date2) {
+            var diff = Math.floor(date1.getTime() - date2.getTime());
+            var day = 1000 * 60 * 60 * 24;
+        
+            var days = Math.floor(diff/day);
+            var months = Math.floor(days/31);
+            var years = Math.floor(months/12) + 1;
+            
+            var message = years;
+            // var message = date2.toDateString();
+            // message += " was "
+            // message += days + " days " 
+            // message += months + " months "
+            // message += years + " years ago \n"
+        
+            return message
+            }
+        var time = calcDate(today, past)
+
+        </script>
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
             <p><span data-i18n="about_me.des">{{ site.author.desc }}</span></p>
-            <p style="color:black;">I am the first-year Ph.D. student in the Computer Science department at Northwestern University, advising by the Professor Han Liu. Prior to this, I was a master’s student in the Computer Science department at the Georgia Institute of Technology, Atlanta, where I was involved with three projects:: </p>
+            <p style="color:black;">I am the <script>document.write(time)</script>-year Ph.D. student in the Computer Science department at Northwestern University, advising by the Professor Han Liu. Prior to this, I was a master’s student in the Computer Science department at the Georgia Institute of Technology, Atlanta. The areas of focus for my research include points: </p>
             <ul>
-                <li>SciAnnotate (supervised by Professor Song Le): It is an annotation tool for the natural sciecne student to use to annotate the specific labels from their report, paper and so on. It is an application of the NLP work with the NER recogation and Noiseing Cancellation </li> 
-                <li>RobLAX (supervised by Professor Zhaoran Wang, Northwestern University): a physical robotic simulator with  model-free reinforcement learning to show SOTA performance </li>
-                <li>Clothes Chatbot (supervised by Professor Han Liu, Northwestern University): chatbot for the daily conversation with the customer in the situation of the clothes store</li>
+                <li> Hyperparameter Tuning: creating a methodology for optimizing Hyperparameter tuning, with a particular emphasis on improving its efficiency and performance. 
+                    My primary focus is on addressing the problem of overfitting within hyperparameter tuning. </li> 
+                <li>Foundation Model and Large Language Model: Are you keeping tabs on the progress of ChatGPT, GPT4, and LLaMA？ All of which are Foundation Models. The development of Large Language Models (LLMs) has 
+                    significantly impacted our lives. I am interested in exploring the potential of these Foundation Models and the value they can bring to us. </li>
+                <li>Multi-modal: Are you fascinated by the multimodal functionality in GPT4? This feature has incredible potential for developing applications in various fields and can 
+                    greatly benefit our daily life, particularly in scientific learning.</li>
             </ul>
         <p style="color:black;"> Besides the school and research work, I have found my interests in lots of things over time including photography, hiking and traveling.</p> 
         </div>
