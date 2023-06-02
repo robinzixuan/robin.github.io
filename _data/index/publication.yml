@@ -6,7 +6,7 @@
     detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
     i18n: company_c
   desc:
-    detail: Review by ICML2023
+    detail: Review by Neurips2023
     i18n: company_c_desc
   date:
     detail: Jan. 2023
@@ -20,13 +20,13 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: ICMLA 2022 - https://arxiv.org/abs/2206.05860 
+    detail: ICMLA 2022 - https://ieeexplore.ieee.org/abstract/document/10069446
     i18n: company_c_desc
   date:
     detail: March. 2022
     i18n: company_c_date
   job:
-    detail: Haozheng Luo, Tianyi Wu, Feiyu Han, Zhijun Yan, Jianfen Zhang
+    detail: Haozheng Luo, Tianyi Wu, Feiyu Han, Zhijun Yan
     i18n: company_c_job
   icon: fa-plus-square
 
@@ -77,7 +77,7 @@
     detail: SciAnnotate- A Tool for Integrating Weak Labeling Sources for Sequence Labeling
     i18n: company_c
   desc:
-    detail: preprint in arxiv- https://arxiv.org/abs/2208.10241
+    detail: preprint in arxiv - https://arxiv.org/abs/2208.10241
     i18n: company_c_desc
   date:
     detail: Jan. 2021
@@ -92,7 +92,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: preprint in arxiv -  https://arxiv.org/abs/2012.00822 
+    detail: RO-MAN 2023 -  https://arxiv.org/abs/2012.00822 
     i18n: company_c_desc
   date:
     detail: Dec. 2020
