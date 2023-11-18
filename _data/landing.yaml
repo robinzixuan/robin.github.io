@@ -12,7 +12,11 @@
   tpl: news.html
   css: 
 
-
+- id: collaborators
+  name: Collaborators
+  tpl: collaborators.html
+  css: 
+  
 - id: education
   i18n: nav.education
   name: Education
@@ -39,6 +43,13 @@
   name: Career
   tpl: career.html
   css: timeline
+
+
+- id: talk
+  i18n: talks
+  name: Talks
+  tpl: talks.html
+  css: 
 
 
 - id: skills
