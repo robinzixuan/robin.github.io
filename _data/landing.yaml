@@ -50,6 +50,13 @@
   css: timeline
 
 
+
+- id: talk
+  i18n: talks
+  name: Talks
+  tpl: talks.html
+  css: 
+
 - id: skills
   i18n: nav.skills
   name: Skills
@@ -67,7 +74,9 @@
   i18n: nav.awards
   name: Awards
   tpl: award.html
-  css: 
+  CSS: 
+
+
 
 
 
