@@ -8,9 +8,8 @@
 
 
 - id: collaborators
-  i18n: nav.collaborators
   name: Collaborators
-  tel: collaborators.html
+  tpl: collaborators.html
   css: 
 
 
