@@ -1,1 +1,38 @@
+<div class="container" id="i18_news">
+  <div class="row m-b-lg">
+      <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h1><span data-i18n="news.my_news">Collaborators</span></h1>
+      </div>
+  </div>
+  
+  <p color='orange'>[Prospective Ph.D. Applicants for Fall 2023]</p>
+  <p>Chenwei Xu (cxu@u.northwestern.edu), 2nd-yr MSCS at Northwestern University, supervised by Prof. Han Liu</p>
+  <ul>
+    <li>Feature Programming for Multivariate Time Series Prediction (ICML 2023)</li>
+    <li>On Sparse Modern Hopfield Model (Neurips 2023)</li>
+  </ul>
+
+  <script>
+  function openNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "280px";
+          document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+          document.getElementById("layout-content-container").style.position = "fixed";
+      }
+  }
+  function closeNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "0";
+          document.getElementById("layout-content-container").style.position = "static";
+          document.getElementById("layout-content-container").style.marginLeft = "0px";
+          setInterval(
+              function(){ location.reload() },
+              500
+          );
+      }
+  }
+  </script>
+</div>
+<br>
 
