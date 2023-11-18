@@ -1,1 +1,42 @@
+<div class="container" id="i18_news">
+  <div class="row m-b-lg">
+      <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h1><span data-i18n="news.my_news">Collaborators</span></h1>
+      </div>
+  </div>
+  
+  
+
+  <div class="col-lg-8 col-lg-offset-2 m-t-lg m-b-lg wow zoomIn">
+    <ur>
+      <li>Oral Presentation on IEEE-RO-MAN 2023</li>
+      <li>Group Reading Group Presentation about Autoformer </li>
+      <li>Group Reading Group Presentation about Gradient Boosting Algorithm</li>
+      <li>Oral Presentation on FICC 2021</li>
+    </ur>
+  </div>
+  <script>
+  function openNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "280px";
+          document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+          document.getElementById("layout-content-container").style.position = "fixed";
+      }
+  }
+  function closeNav() {
+      if (window.innerWidth <= 1200) {
+          document.getElementById("layout-menu").style.width = "0";
+          document.getElementById("layout-content-container").style.position = "static";
+          document.getElementById("layout-content-container").style.marginLeft = "0px";
+          setInterval(
+              function(){ location.reload() },
+              500
+          );
+      }
+  }
+  </script>
+</div>
+<br>
+
 
