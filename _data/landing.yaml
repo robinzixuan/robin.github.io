@@ -4,13 +4,22 @@
   i18n: nav.about_me
   name: About
   tpl: about.html
+  CSS: 
+
+
+- id: collaborators
+  name: Collaborators
+  tel: collaborators.html
   css: 
+
+
 
 - id: news
   i18n: nav.news
   name: News
   tpl: news.html
   css: 
+
 
 
 - id: education
