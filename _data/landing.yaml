@@ -12,10 +12,7 @@
   tpl: news.html
   css: 
 
-- id: collaborators
-  name: Collaborators
-  tpl: collaborators.html
-  css: 
+
   
 - id: education
   i18n: nav.education
