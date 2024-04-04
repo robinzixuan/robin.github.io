@@ -13,7 +13,6 @@
     detail: Graduate Teaching Assistant
     i18n: company_a_job
   icon: fa-plus-square
-  present: true
 
 - name:
     detail: Splunk
