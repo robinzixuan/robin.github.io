@@ -2,9 +2,7 @@
     detail: Northwestern University 
     i18n: company_y
   desc: 
-    detail: Integrated Modern Hopfield Networks into the Knowledge-augmented Language Model to address limitation in self-attention architecture and Foundation Model, e.g. no-op outlier in the training;
-    Explored the interpretability of Jailbreak strategies in safety-aligned LLMs by employing in-context learning and outlier analysis to enhance the alignment and safety of superhuman AI system; Applied LLMs to address multivariate time-series challenges, including in-context time series forecasting,
-    Limit Order Book dynamics prediction, and Cross-sectional Regression Time-series Analysis; Developed efficient Hyperparameter Optimization (HPO) methods to optimize models for time series predictions with Tree-structured Parzen Estimator (TPE) and Genetic Algorithm.
+    detail: Integrated Modern Hopfield Networks into the Knowledge-augmented Language Model to address limitation in self-attention architecture and Foundation Model, e.g. no-op outlier in the training;Explored the interpretability of Jailbreak strategies in safety-aligned LLMs by employing in-context learning and outlier analysis to enhance the alignment and safety of superhuman AI system; Applied LLMs to address multivariate time-series challenges, including in-context time series forecasting, Limit Order Book dynamics prediction, and Cross-sectional Regression Time-series Analysis; Developed efficient Hyperparameter Optimization (HPO) methods to optimize models for time series predictions with Tree-structured Parzen Estimator (TPE) and Genetic Algorithm.
     i18n: company_y_desc
   date:
     detail: Dec. 2021 - Present
