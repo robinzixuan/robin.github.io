@@ -1,18 +1,78 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name:
+    detail: Outlier Efficient Modern Hopfield Model for Large Transformer-Based Models
+    i18n: company_c
+  desc:
+    detail: Review by ICML2024
+    i18n: company_c_desc
+  date:
+    detail: Jan. 2024
+    i18n: company_c_date
+  job:
+    detail: Jerry Yao-Chieh Hu*, Pei-Hsuan Chang*, Haozheng Luo*, Hong-Yu Chen, Weijian Li, Wei-Po Wang, Han Liu
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
+    i18n: company_c
+  desc:
+    detail: Review by ICML2024
+    i18n: company_c_desc
+  date:
+    detail: Jan. 2024
+    i18n: company_c_date
+  job:
+    detail: Zhenyu Pan, Haozheng Luo, Manling Li, Han Liu
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: SWGA-  A Distributed Hyperparameter Search Method for Time Series Prediction Models
+    i18n: company_c
+  desc:
+    detail: Review by ICML2024
+    i18n: company_c_desc
+  date:
+    detail: Aug. 2023
+    i18n: company_c_date
+  job:
+    detail: Weijian Li*, Haozheng Luo*, Chenwei Xu, Han Liu 
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
+- name:
+    detail: SMUTF - Schema Matching Using Generative Tags and Hybrid Features
+    i18n: company_c
+  desc:
+    detail: Review by VLDB2024
+    i18n: company_c_desc
+  date:
+    detail: Aug. 2023
+    i18n: company_c_date
+  job:
+    detail: Yu Zhang*, Di Mei*, Haozheng Luo*, Chenwei Xu, Richard Tzong-Han Tsai
+    i18n: company_c_job
+  icon: fa-plus-square
+
+
 
 - name:
     detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
     i18n: company_c
   desc:
-    detail: Review by Neurips2023
+    detail: Review by ICML2024
     i18n: company_c_desc
   date:
     detail: Jan. 2023
     i18n: company_c_date
   job:
-    detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Han Liu
+    detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Zhenyu Pan, Han Liu
     i18n: company_c_job
   icon: fa-plus-square
 
@@ -48,7 +108,7 @@
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
   desc:
-    detail: ICLR 2023 (Under Review)
+    detail: https://sites.google.com/u.northwestern.edu/roblax/home
     i18n: company_c_desc
   date:
     detail: Sept. 2021
@@ -92,7 +152,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: RO-MAN 2023 -  https://arxiv.org/abs/2012.00822 
+    detail: RO-MAN 2023 -  https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10309342
     i18n: company_c_desc
   date:
     detail: Dec. 2020
