@@ -47,12 +47,12 @@
   css: timeline
 
 
-
 - id: talk
   i18n: talks
   name: Talks
   tpl: talks.html
   css: 
+
 
 - id: skills
   i18n: nav.skills
