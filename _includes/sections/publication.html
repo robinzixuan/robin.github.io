@@ -15,7 +15,7 @@
                         <i class="fa {{ publication.icon }}"></i>
                     </div>
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        <h2><span data-i18n="publication.{{ publication.name.i18n }}"><a href={{ publication.link.detail }}{{ publication.name.detail }}</a></span></h2>
+                        <h2><a href=<span data-i18n="publication.{{ publication.link.i18n }}">{{ publication.link.detail }}</span>><span data-i18n="publication.{{ publication.name.i18n }}">{{ publication.name.detail }}</span></a></h2>
                         <p><span data-i18n="publication.{{ publication.desc.i18n }}">{{ publication.desc.detail }} </span></p>
                         <span class="vertical-date"><span data-i18n="publication.{{ publication.date.i18n }}"> {{ publication.date.detail }} </span>
                         <br/> <small><span data-i18n="publication.{{ publication.job.i18n }}">{{ publication.job.detail }}</span></small> </span>
