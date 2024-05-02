@@ -95,7 +95,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: 2022 21st IEEE International Conference on Machine Learning and Applications （ICMLA'2022）
+    detail: ICMLA'2022 - 2022 21st IEEE International Conference on Machine Learning and Applications 
     i18n: company_c_desc
   date:
     detail: March. 2022
@@ -150,7 +150,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: 2023 32nd IEEE International Conference on Robot and Human Interactive Communication （RO-MAN'2023)
+    detail: RO-MAN'2023 - 2023 32nd IEEE International Conference on Robot and Human Interactive Communication
     i18n: company_c_desc
   date:
     detail: Dec. 2020
@@ -189,7 +189,7 @@
     detail: Question ClassiNication with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: Advances in Information and Communication: Proceedings of the 2021 Future of Information and Communication Conference (FICC'2021)
+    detail: FICC'2021 - Advances in Information and Communication: Proceedings of the 2021 Future of Information and Communication Conference
     i18n: company_c_desc
   date:
     detail: Oct 2019
