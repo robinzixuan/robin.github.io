@@ -5,7 +5,7 @@
     detail: Outlier Efficient Modern Hopfield Model for Large Transformer-Based Models
     i18n: company_c
   desc:
-    detail: Accepted by ICML2024
+    detail: Accepted by ICML'2024 
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -20,7 +20,7 @@
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
   desc:
-    detail: Review by Neurips2024
+    detail: Review by Neurips'2024
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -35,7 +35,7 @@
     detail: SWGA-  A Distributed Hyperparameter Search Method for Time Series Prediction Models
     i18n: company_c
   desc:
-    detail: Review by Neurips2024
+    detail: Review by Neurips'2024
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -80,7 +80,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: ICMLA 2022 - https://ieeexplore.ieee.org/abstract/document/10069446
+    detail: ICMLA'2022 - https://ieeexplore.ieee.org/abstract/document/10069446
     i18n: company_c_desc
   date:
     detail: March. 2022
