@@ -4,7 +4,12 @@
   i18n: nav.about_me
   name: About
   tpl: about.html
-  css: 
+  CSS: 
+
+
+
+
+
 
 - id: news
   i18n: nav.news
@@ -13,7 +18,7 @@
   css: 
 
 
-  
+
 - id: education
   i18n: nav.education
   name: Education
@@ -66,7 +71,9 @@
   i18n: nav.awards
   name: Awards
   tpl: award.html
-  css: 
+  CSS: 
+
+
 
 
 

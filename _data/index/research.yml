@@ -13,6 +13,7 @@
   icon: fa-plus-square
   present: true
 
+
 - name:
     detail: Northwestern University 
     i18n: company_z
@@ -41,7 +42,7 @@
     detail: Graduate Research Assistant
     i18n: company_x_job
   icon: fa-plus-square
-  present: true
+
 
 - name:
     detail: Georgia Institute of Technology
@@ -117,4 +118,4 @@
     detail: VIP Georgia Tech – LoPt Database Team
     i18n: company_e_job
   icon: fa-plus-square
-  
+
