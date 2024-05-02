@@ -49,9 +49,6 @@
   job:
     detail: Weijian Li*, Haozheng Luo*, Chenwei Xu, Han Liu 
     i18n: company_c_job
-  link:
-      detail: 
-      i18n: company_c_link
   icon: fa-plus-square
 
 
@@ -86,9 +83,7 @@
   job:
     detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Zhenyu Pan, Han Liu
     i18n: company_c_job
-  link:
-      detail: 
-      i18n: company_c_link
+
   icon: fa-plus-square
 
 - name:
@@ -113,7 +108,7 @@
     detail: RobLAX-A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning 
     i18n: company_c
   desc:
-    detail: 
+    detail: None
     i18n: company_c_desc
   date:
     detail: Sept. 2021
