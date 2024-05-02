@@ -13,6 +13,10 @@
   job:
     detail: Jerry Yao-Chieh Hu*, Pei-Hsuan Chang*, Haozheng Luo*, Hong-Yu Chen, Weijian Li, Wei-Po Wang, Han Liu
     i18n: company_c_job
+  link:
+      detail: https://arxiv.org/abs/2404.03828
+      i18n: company_c_link
+      
   icon: fa-plus-square
 
 
