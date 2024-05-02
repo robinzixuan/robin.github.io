@@ -20,7 +20,7 @@
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
   desc:
-    detail: Review by ICML2024
+    detail: Review by Neurips2024
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -35,7 +35,7 @@
     detail: SWGA-  A Distributed Hyperparameter Search Method for Time Series Prediction Models
     i18n: company_c
   desc:
-    detail: Review by ICML2024
+    detail: Review by Neurips2024
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -50,7 +50,7 @@
     detail: SMUTF - Schema Matching Using Generative Tags and Hybrid Features
     i18n: company_c
   desc:
-    detail: Review by VLDB2024
+    detail: Review by Information Systems
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -66,7 +66,7 @@
     detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
     i18n: company_c
   desc:
-    detail: Review by ICML2024
+    detail: Review by Neurips2024
     i18n: company_c_desc
   date:
     detail: Jan. 2023
