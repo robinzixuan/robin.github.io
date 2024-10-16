@@ -48,9 +48,6 @@
   job:
     detail: Zhenyu Pan*, Haozheng Luo*, Manling Li, Han Liu
     i18n: company_c_job
-  link:
-      detail: 
-      i18n: company_c_link
   icon: fa-plus-square
 
 - name:
