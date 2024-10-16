@@ -1,6 +1,96 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+
+- name:
+    detail: Decoupled Alignment for Robust Plug-and-Play Adaptation
+    i18n: company_c
+  desc:
+    detail: Review by ICLR'2024
+    i18n: company_c_desc
+  date:
+    detail: May. 2024
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo*, Jiahao Yu*, Wenxin Zhang*, Jialong Li, Jerry Yao-Chieh Hu, Xingyu Xin, Han Liu
+    i18n: company_c_job
+  link:
+      detail: https://arxiv.org/abs/2406.01514
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
+    detail: Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens
+    i18n: company_c
+  desc:
+    detail: Review by ICLR'2024
+    i18n: company_c_desc
+  date:
+    detail: May. 2024
+    i18n: company_c_date
+  job:
+    detail: Jiahao Yu*, Haozheng Luo*, Jerry Yao-Chieh Hu, Wenbo Guo, Han Liu, Xinyu Xing
+    i18n: company_c_job
+  link:
+      detail: https://arxiv.org/abs/2405.20653
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
+    detail: Conv-CoA: Improving Open-domain Question Answering in Large Language Models via Conversational Chain-of-Action
+    i18n: company_c
+  desc:
+    detail: Review by ICML'2025
+    i18n: company_c_desc
+  date:
+    detail: May. 2024
+    i18n: company_c_date
+  job:
+    detail: Zhenyu Pan*, Haozheng Luo*, Manling Li, Han Liu
+    i18n: company_c_job
+  link:
+      detail: 
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
+    detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory: A Case Study in SpeechLM
+Authors
+    i18n: company_c
+  desc:
+    detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
+    i18n: company_c_desc
+  date:
+    detail: June. 2024
+    i18n: company_c_date
+  job:
+    detail: Shang Wu*, Yen-Ju Lu*, Haozheng Luo*, Jerry Yao-Chieh Hu, Jiayi Wang, Najim Dehak, Jesus Villalba, Han Liu
+    i18n: company_c_job
+  link:
+      detail: https://openreview.net/forum?id=kZBM2UYiQh
+      i18n: company_c_link
+  icon: fa-plus-square
+
+
+- name:
+    detail: OutEffHop: A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
+Authors
+    i18n: company_c
+  desc:
+    detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
+    i18n: company_c_desc
+  date:
+    detail: June. 2024
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo*, Jerry Yao-Chieh Hu*, Pei-Hsuan Chang*, Hong-Yu Chen, Weijian Li, Wei-Po Wang, Han Liu
+    i18n: company_c_job
+  link:
+      detail: https://openreview.net/forum?id=ZCrRCICOkr
+      i18n: company_c_link
+  icon: fa-plus-square
+
+
 - name:
     detail: Outlier Efficient Modern Hopfield Model for Large Transformer-Based Models
     i18n: company_c
@@ -23,7 +113,7 @@
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
   desc:
-    detail: Review by Neurips'2024
+    detail: Review by ICLR'2024
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -41,7 +131,7 @@
     detail: SWGA - A Distributed Hyperparameter Search Method for Time Series Prediction Models
     i18n: company_c
   desc:
-    detail: Review by Neurips'2024
+    detail: Review by ICLR'2024
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -75,7 +165,7 @@
     detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
     i18n: company_c
   desc:
-    detail: Review by Neurips' 2024
+    detail: Review by ICML' 2025
     i18n: company_c_desc
   date:
     detail: Jan. 2023
