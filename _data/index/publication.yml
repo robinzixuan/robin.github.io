@@ -37,7 +37,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Conv-CoA: Improving Open-domain Question Answering in Large Language Models via Conversational Chain-of-Action
+    detail: Conv-CoA- Improving Open-domain Question Answering in Large Language Models via Conversational Chain-of-Action
     i18n: company_c
   desc:
     detail: Review by ICML'2025
@@ -51,8 +51,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory: A Case Study in SpeechLM
-Authors
+    detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory: A Case Study in SpeechLM Authors
     i18n: company_c
   desc:
     detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
@@ -70,7 +69,7 @@ Authors
 
 
 - name:
-    detail: OutEffHop: A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
+    detail: OutEffHop- A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
 Authors
     i18n: company_c
   desc:
