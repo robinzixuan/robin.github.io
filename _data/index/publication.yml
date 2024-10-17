@@ -51,7 +51,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory: A Case Study in SpeechLM Authors
+    detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory - A Case Study in SpeechLM Authors
     i18n: company_c
   desc:
     detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
