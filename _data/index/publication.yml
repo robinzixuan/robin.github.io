@@ -70,7 +70,6 @@
 
 - name:
     detail: OutEffHop- A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
-Authors
     i18n: company_c
   desc:
     detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
