@@ -3,7 +3,7 @@
 
 
 - name:
-    detail: ST-MoE-BERT: A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction
+    detail: ST-MoE-BERT  A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction
     i18n: company_c
   desc:
     detail: 2nd ACM SIGSPATIAL International Workshop on the Human Mobility Prediction Challenge
