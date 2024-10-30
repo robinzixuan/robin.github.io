@@ -3,6 +3,23 @@
 
 
 - name:
+    detail: ST-MoE-BERT: A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction
+    i18n: company_c
+  desc:
+    detail: 2nd ACM SIGSPATIAL International Workshop on the Human Mobility Prediction Challenge
+    i18n: company_c_desc
+  date:
+    detail: Oct. 2024
+    i18n: company_c_date
+  job:
+    detail: Haoyu He, Haozheng Luo, Qi R. Wang
+    i18n: company_c_job
+  link:
+      detail: https://arxiv.org/abs/2410.14099v1
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
     detail: Decoupled Alignment for Robust Plug-and-Play Adaptation
     i18n: company_c
   desc:
