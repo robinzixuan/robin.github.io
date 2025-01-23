@@ -23,7 +23,7 @@
     detail: Decoupled Alignment for Robust Plug-and-Play Adaptation
     i18n: company_c
   desc:
-    detail: Review by ICLR'2024
+    detail: Review by USENIX Security'2025
     i18n: company_c_desc
   date:
     detail: May. 2024
@@ -40,7 +40,7 @@
     detail: Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens
     i18n: company_c
   desc:
-    detail: Review by ICLR'2024
+    detail: Review by USENIX Security'2025
     i18n: company_c_desc
   date:
     detail: May. 2024
@@ -125,7 +125,7 @@
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
   desc:
-    detail: Review by ICLR'2024
+    detail: Accepted by ICLR'2025 
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -143,7 +143,7 @@
     detail: SWGA - A Distributed Hyperparameter Search Method for Time Series Prediction Models
     i18n: company_c
   desc:
-    detail: Review by ICLR'2024
+    detail: Review by ICML'2025
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -172,21 +172,6 @@
   icon: fa-plus-square
 
 
-
-- name:
-    detail: Hyperparameter Search via Cyclic Block Coordinate Optimization
-    i18n: company_c
-  desc:
-    detail: Review by ICML' 2025
-    i18n: company_c_desc
-  date:
-    detail: Jan. 2023
-    i18n: company_c_date
-  job:
-    detail: Chenwei Xu, Haozheng Luo, Shifeng Li, Zhenyu Pan, Han Liu
-    i18n: company_c_job
-
-  icon: fa-plus-square
 
 - name:
     detail: IGN - Implicit Generative Networks
