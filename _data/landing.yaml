@@ -83,6 +83,11 @@
   tpl: miscellaneous.html
   css: 
 
+- id: sevice
+  i18n: nav.sevice
+  name: Sevice
+  tpl: sevice.html
+  css: 
 
 
 
