@@ -53,6 +53,18 @@
   tpl: talks.html
   css: 
 
+- id: sevice
+  i18n: nav.sevice
+  name: Service
+  tpl: sevice.html
+  css: 
+
+- id: mentor
+  i18n: nav.mentor
+  name: Collaboration and Mentoring
+  tpl: mentor.html
+  css: 
+
 
 - id: skills
   i18n: nav.skills
@@ -83,11 +95,6 @@
   tpl: miscellaneous.html
   css: 
 
-- id: sevice
-  i18n: nav.sevice
-  name: Sevice
-  tpl: sevice.html
-  css: 
 
 
 
