@@ -61,7 +61,7 @@
 
 - id: mentor
   i18n: nav.mentor
-  name: Collaboration and Mentoring
+  name: Collaboration
   tpl: mentor.html
   css: 
 
