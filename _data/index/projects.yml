@@ -1,31 +1,31 @@
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+# Projects Section Data
+# If you don't have language features (language.yml is empty), ignore "i18n" items.
+# Suggested project images should be located at '/static/assets/img/landing'. Update the "img" items accordingly.
+
 - name: Snake Robot Simulator
   i18n: Snake Robot Simulator
   gh_user: robinzixuan
   repo: 3-linked-snake-robot-simulation
   img: /static/assets/img/landing/snake.jpeg
-  desc: This project is my project. I designed and developed a Snake robot simulator with the ROS API ans python programming code.
+  desc: Designed and developed a snake robot simulator using ROS API and Python.
 
 - name: Worldwide Attacking & Protection Web Project
   i18n: Worldwide Attacking & Protection Web Project
   gh_user: robinzixuan
   repo: attackmap
   img: /static/assets/img/landing/attack.png
-  desc: This project is other's project. I designed and implemented a web capable of describing Cybersecurity attacking behavior in the world by HTML5; delivered a pipeline that scrawls the data from Kaspersky website and sets up a database to store scrawled data
+  desc: Developed a web application that visualizes global cybersecurity attacks using HTML5. Implemented a data pipeline to scrape cybersecurity attack data from the Kaspersky website and store it in a structured database.
 
-- name: Object Relational Rest
+- name: Object Relational REST API
   i18n: Object Relational Rest
   gh_user: robinzixuan
   repo: object-relational-rest
   img: /static/assets/img/landing/postgresql.png
-  desc: This is another project. I designed and implemented a Restful API with the PostgreSQL, greatly convince the non-technology user can use the database without limitation; delivered a React application to show up our Restful API on the computer
-
+  desc: Designed and implemented a RESTful API with PostgreSQL, enabling non-technical users to interact with the database easily. Developed a React-based frontend to showcase API functionality.
 
 - name: Chatbot
-  i18n: chatbot
+  i18n: Chatbot
   gh_user: robinzixuan
   repo: rasa-baseline
   img: /static/assets/img/landing/rasa.png
-  desc: This is another project. I designed and implemented a Rasa project to make a clothes chatbot application.
+  desc: Designed and implemented a chatbot application using Rasa for an interactive clothing recommendation system.
