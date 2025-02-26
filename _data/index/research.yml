@@ -81,7 +81,6 @@
     i18n: company_c
   desc:
     detail: Researched the Visual Question Answering (VQA) problem using the NS-VQA algorithm to classify object relationships in images and answer GQA questions. Investigated reasoning mechanisms and improved performance using bidirectional LSTMs. Explored the functionality and latest advancements in VQA technology.
-    i18n: company_c_desc
   date:
     detail: Aug. 2019 - May 2020
     i18n: company_c_date
@@ -97,7 +96,6 @@
     i18n: company_d
   desc:
     detail: Developed a computational pipeline for analyzing adsorption energy in chemical reactions using Python and the ASE API. Implemented a machine learning model to analyze chemical molecular structures.
-    i18n: company_d_desc
   date:
     detail: Jan. 2019 - May 2020
     i18n: company_d_date
@@ -113,7 +111,6 @@
     i18n: company_e
   desc:
     detail: Developed a data pipeline that collects and analyzes stadium network data to provide precise insights for stadium staff. Built a website tool for setting up a remote database for the LoPT Database Team.
-    i18n: company_e_desc
   date:
     detail: Jan. 2018 - Dec 2018
     i18n: company_e_date
