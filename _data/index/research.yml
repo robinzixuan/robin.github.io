@@ -2,7 +2,7 @@
     detail: Northwestern University 
     i18n: company_y
   desc: 
-    detail: Integrated Modern Hopfield Networks into the Knowledge-augmented Language Model to address limitation in self-attention architecture and Foundation Model, e.g. no-op outlier in the training;Explored the interpretability of Jailbreak strategies in safety-aligned LLMs by employing in-context learning and outlier analysis to enhance the alignment and safety of superhuman AI system; Applied LLMs to address multivariate time-series challenges, including in-context time series forecasting, Limit Order Book dynamics prediction, and Cross-sectional Regression Time-series Analysis; Developed efficient Hyperparameter Optimization (HPO) methods to optimize models for time series predictions with Tree-structured Parzen Estimator (TPE) and Genetic Algorithm.
+    detail: Integrated Modern Hopfield Networks into a knowledge-augmented language model to address limitations in self-attention architectures and foundation models, such as no-op outliers during training. Explored the interpretability of jailbreak strategies in safety-aligned LLMs by employing in-context learning and outlier analysis to enhance alignment and safety in superhuman AI systems. Applied LLMs to multivariate time-series challenges, including in-context time series forecasting, Limit Order Book dynamics prediction, and cross-sectional regression time-series analysis. Developed efficient hyperparameter optimization (HPO) methods for time-series prediction using the Tree-structured Parzen Estimator (TPE) and Genetic Algorithm.
     i18n: company_y_desc
   date:
     detail: Dec. 2021 - Present
@@ -17,8 +17,8 @@
 - name:
     detail: Northwestern University 
     i18n: company_z
-  desc: 
-    detail: Work in Distributed Deep Reinforcement Leaning by implementing IQN model with Wasserstein GAN algorithm; Designed policy evaluation experiment with Atari Game Database  using the fixed policy inputting and compare the result with the baseline of the fixed policy; Developed policy optimization on the IQN model with the Wasserstein GAN algorithm
+  desc:
+    detail: Worked on distributed deep reinforcement learning by implementing the IQN model with the Wasserstein GAN algorithm. Designed a policy evaluation experiment using the Atari Game Database with fixed policy input and compared results with a baseline fixed policy. Developed policy optimization for the IQN model using the Wasserstein GAN algorithm.
     i18n: company_z_desc
   date:
     detail: Sept. 2021 - Nov. 2021
@@ -33,7 +33,7 @@
     detail: Northwestern University 
     i18n: company_x
   desc:
-    detail:  Worked on model-free reinforcement learning to show SOTA performance with our physical simulator; Implemented PPO, SAC algorithm to get and plot the reward of the reinforcement learning in our physical simulator; Published a paper in progress- “ RobLAX- A Differentiable Robotics Framework for Physics Augmented Reinforcement Learning”
+    detail: Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. Contributed to a paper in progress, “RobLAX: A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.”
     i18n: company_x_desc
   date:
     detail: May. 2021 - Sept. 2021
@@ -48,7 +48,7 @@
     detail: Georgia Institute of Technology
     i18n: company_a
   desc:
-    detail:  Worked on the brat problem and built the pipeline of the NLP labeling application; Researched on the polysemy problem and used the BERT model to label the target words and phrase; Researched on the Operational Transformation Algorithm to make sure the several contributors modifying together in cloud.
+    detail: Developed an NLP labeling pipeline for the brat annotation tool. Researched polysemy problems and applied the BERT model for target word and phrase labeling. Studied the Operational Transformation Algorithm to enable collaborative real-time editing in the cloud.
     i18n: company_a_desc
   date:
     detail: Sept. 2020 - May 2021
@@ -64,7 +64,7 @@
     detail: Georgia Institute of Technology
     i18n: company_b
   desc:
-    detail:  Worked on Continuous Neuro-Symbolic VQA. In particular researched on the problem of soft logic function; Designed and implemented the reasoning model based on Bert, Bi-direction LSTM and Stack-NMN. Evaluated the performance with other VQA models; Researched on the Video Question Answering and designed the model with R(2+1)D to detect the action and movement of objects in videos; Publishing a paper in progress - Differentiable End-to-End Program Executor for Sample and Computationally Ef;icient VQA.
+    detail: Worked on Continuous Neuro-Symbolic Visual Question Answering (VQA), particularly researching soft logic functions. Designed and implemented a reasoning model combining BERT, bidirectional LSTM, and Stack-NMN, and evaluated its performance against other VQA models. Researched Video Question Answering and developed a model using R(2+1)D to detect object actions and movements. Contributed to a paper in progress, “Differentiable End-to-End Program Executor for Sample and Computationally Efficient VQA.”
     i18n: company_b_desc
   date:
     detail: Aug. 2020 - Oct 2020
@@ -80,7 +80,8 @@
     detail: Georgia Institute of Technology
     i18n: company_c
   desc:
-    detail: Researched the visual question answering problem. Visual question answering using NS-VQA algorithm to classify the relationship of different objects in images and give out the answer of the GQA problem. Researched on the reasoning work and used the bi-directional LSTM to make some improvement on the reasoning work in VQA;Understood what the function of the VQA works and what the latest technology on solving the VQA problem
+    detail: Researched the Visual Question Answering (VQA) problem using the NS-VQA algorithm to classify object relationships in images and answer GQA questions. Investigated reasoning mechanisms and improved performance using bidirectional LSTMs. Explored the functionality and latest advancements in VQA technology.
+    i18n: company_c_desc
   date:
     detail: Aug. 2019 - May 2020
     i18n: company_c_date
@@ -95,7 +96,8 @@
     detail: Georgia Institute of Technology
     i18n: company_d
   desc:
-    detail: Developed a pipeline capable of analyzing the adsorption energy in chemical reactions by using Python and ASE API; Implemented a machine learning model capable to analyzing the structure of chemical molecular.
+    detail: Developed a computational pipeline for analyzing adsorption energy in chemical reactions using Python and the ASE API. Implemented a machine learning model to analyze chemical molecular structures.
+    i18n: company_d_desc
   date:
     detail: Jan. 2019 - May 2020
     i18n: company_d_date
@@ -110,7 +112,8 @@
     detail: Georgia Institute of Technology
     i18n: company_e
   desc:
-    detail: Developed a pipeline that collects data provided by the stadium networks and analyzes collected data to give out a precise result to stadium staffs; Delivered a website tool capable to setting up a remote database for the LoPT database team.
+    detail: Developed a data pipeline that collects and analyzes stadium network data to provide precise insights for stadium staff. Built a website tool for setting up a remote database for the LoPT Database Team.
+    i18n: company_e_desc
   date:
     detail: Jan. 2018 - Dec 2018
     i18n: company_e_date
