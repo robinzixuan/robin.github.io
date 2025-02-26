@@ -33,7 +33,7 @@
     detail: Northwestern University 
     i18n: company_x
   desc:
-    detail: Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. Contributed to a paper in progress, “RobLAX: A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.”
+    detail: Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. Contributed to a paper in progress, RobLAX: A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.
     i18n: company_x_desc
   date:
     detail: May. 2021 - Sept. 2021
