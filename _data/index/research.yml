@@ -3,7 +3,6 @@
     i18n: company_y
   desc:
     detail: Integrated Modern Hopfield Networks into a knowledge-augmented language model to address limitations in self-attention architectures and foundation models, such as no-op outliers during training. Explored the interpretability of jailbreak strategies in safety-aligned LLMs by employing in-context learning and outlier analysis to enhance alignment and safety in superhuman AI systems. Applied LLMs to multivariate time-series challenges, including in-context time series forecasting, Limit Order Book dynamics prediction, and cross-sectional regression time-series analysis. Developed efficient hyperparameter optimization (HPO) methods for time-series prediction using the Tree-structured Parzen Estimator (TPE) and Genetic Algorithm.
-    i18n: company_y_desc
   date:
     detail: Dec. 2021 - Present
     i18n: company_y_date
@@ -18,7 +17,7 @@
     i18n: company_z
   desc:
     detail: Worked on distributed deep reinforcement learning by implementing the IQN model with the Wasserstein GAN algorithm. Designed a policy evaluation experiment using the Atari Game Database with fixed policy input and compared results with a baseline fixed policy. Developed policy optimization for the IQN model using the Wasserstein GAN algorithm.
-    i18n: company_z_desc
+    
   date:
     detail: Sept. 2021 - Nov. 2021
     i18n: company_z_date
@@ -32,7 +31,7 @@
     i18n: company_x
   desc:
     detail: Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. Contributed to a paper in progress, “RobLAX: A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.”
-    i18n: company_x_desc
+    
   date:
     detail: May 2021 - Sept. 2021
     i18n: company_x_date
@@ -46,7 +45,7 @@
     i18n: company_a
   desc:
     detail: Developed an NLP labeling pipeline for the brat annotation tool. Researched polysemy problems and applied the BERT model for target word and phrase labeling. Studied the Operational Transformation Algorithm to enable collaborative real-time editing in the cloud.
-    i18n: company_a_desc
+    
   date:
     detail: Sept. 2020 - May 2021
     i18n: company_a_date
@@ -60,7 +59,7 @@
     i18n: company_b
   desc:
     detail: Worked on Continuous Neuro-Symbolic Visual Question Answering (VQA), particularly researching soft logic functions. Designed and implemented a reasoning model combining BERT, bidirectional LSTM, and Stack-NMN, and evaluated its performance against other VQA models. Researched Video Question Answering and developed a model using R(2+1)D to detect object actions and movements. Contributed to a paper in progress, “Differentiable End-to-End Program Executor for Sample and Computationally Efficient VQA.”
-    i18n: company_b_desc
+   
   date:
     detail: Aug. 2020 - Oct. 2020
     i18n: company_b_date
@@ -74,7 +73,7 @@
     i18n: company_c
   desc:
     detail: Researched the Visual Question Answering (VQA) problem using the NS-VQA algorithm to classify object relationships in images and answer GQA questions. Investigated reasoning mechanisms and improved performance using bidirectional LSTMs. Explored the functionality and latest advancements in VQA technology.
-    i18n: company_c_desc
+    
   date:
     detail: Aug. 2019 - May 2020
     i18n: company_c_date
@@ -88,7 +87,7 @@
     i18n: company_d
   desc:
     detail: Developed a computational pipeline for analyzing adsorption energy in chemical reactions using Python and the ASE API. Implemented a machine learning model to analyze chemical molecular structures.
-    i18n: company_d_desc
+    
   date:
     detail: Jan. 2019 - May 2020
     i18n: company_d_date
@@ -102,7 +101,7 @@
     i18n: company_e
   desc:
     detail: Developed a data pipeline that collects and analyzes stadium network data to provide precise insights for stadium staff. Built a website tool for setting up a remote database for the LoPT Database Team.
-    i18n: company_e_desc
+    
   date:
     detail: Jan. 2018 - Dec. 2018
     i18n: company_e_date
