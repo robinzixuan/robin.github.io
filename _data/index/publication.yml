@@ -3,6 +3,40 @@
 
 
 - name:
+    detail: GenoArmory- A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models
+    i18n: company_c
+  desc:
+    detail: Accepted by ICML'2024
+    i18n: company_c_desc
+  date:
+    detail: May. 2025
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo*, Chenghao Qiu*, Yimin Wang, Shang Wu, Jiahao Yu, Han Liu, Binghui Wang, Yan Chen
+    i18n: company_c_job
+  link:
+      detail: https://github.com/MAGICS-LAB/GenoArmory
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
+    detail: Fast and Low-Cost Genomic Foundation Models via Outlier Removal
+    i18n: company_c
+  desc:
+    detail: Accepted by ICML'2024
+    i18n: company_c_desc
+  date:
+    detail: May. 2025
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo*, Chenghao Qiu*, Maojiang Su, Zhihan Zhou, Zoe Mehta, Guo Ye, Jerry Yao-Chieh Hu, Han Liu
+    i18n: company_c_job
+  link:
+      detail: https://github.com/MAGICS-LAB/GERM
+      i18n: company_c_link
+  icon: fa-plus-square
+
+- name:
     detail: A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction
     i18n: company_c
   desc:
@@ -23,13 +57,13 @@
     detail: Decoupled Alignment for Robust Plug-and-Play Adaptation
     i18n: company_c
   desc:
-    detail: Review by USENIX Security'2025
+    detail: Review by Neurips'2025
     i18n: company_c_desc
   date:
     detail: May. 2024
     i18n: company_c_date
   job:
-    detail: Haozheng Luo*, Jiahao Yu*, Wenxin Zhang*, Jialong Li, Jerry Yao-Chieh Hu, Xingyu Xin, Han Liu
+    detail: Haozheng Luo*, Jiahao Yu*, Wenxin Zhang*, Jialong Li, Jerry Yao-Chieh Hu, Yan Chen, Binghui Wang, Xingyu Xin, Han Liu
     i18n: company_c_job
   link:
       detail: https://arxiv.org/abs/2406.01514
@@ -57,7 +91,7 @@
     detail: Conv-CoA- Improving Open-domain Question Answering in Large Language Models via Conversational Chain-of-Action
     i18n: company_c
   desc:
-    detail: Review by ICML'2025
+    detail: Review by Neurips'2025
     i18n: company_c_desc
   date:
     detail: May. 2024
