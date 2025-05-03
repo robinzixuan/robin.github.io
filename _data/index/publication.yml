@@ -6,7 +6,7 @@
     detail: GenoArmory- A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2024
+    detail: Review by Neurips'2025
     i18n: company_c_desc
   date:
     detail: May. 2025
@@ -23,7 +23,7 @@
     detail: Fast and Low-Cost Genomic Foundation Models via Outlier Removal
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2024
+    detail: Accepted by ICML'2025
     i18n: company_c_desc
   date:
     detail: May. 2025
@@ -32,7 +32,7 @@
     detail: Haozheng Luo*, Chenghao Qiu*, Maojiang Su, Zhihan Zhou, Zoe Mehta, Guo Ye, Jerry Yao-Chieh Hu, Han Liu
     i18n: company_c_job
   link:
-      detail: https://github.com/MAGICS-LAB/GERM
+      detail: https://arxiv.org/pdf/2505.00598
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -49,7 +49,7 @@
     detail: Haoyu He, Haozheng Luo, Qi R. Wang
     i18n: company_c_job
   link:
-      detail: https://arxiv.org/abs/2410.14099v1
+      detail: https://dl.acm.org/doi/10.1145/3681771.3699910
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -150,7 +150,7 @@
     detail: Jerry Yao-Chieh Hu*, Pei-Hsuan Chang*, Haozheng Luo*, Hong-Yu Chen, Weijian Li, Wei-Po Wang, Han Liu
     i18n: company_c_job
   link:
-      detail: https://arxiv.org/abs/2404.03828
+      detail: https://openreview.net/forum?id=kLiDMGJKx1
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -168,7 +168,7 @@
     detail: Zhenyu Pan, Haozheng Luo, Manling Li, Han Liu
     i18n: company_c_job
   link:
-      detail: https://arxiv.org/abs/2403.17359
+      detail: https://openreview.net/forum?id=1BdPHbuimc
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -177,7 +177,7 @@
     detail: SWGA - A Distributed Hyperparameter Search Method for Time Series Prediction Models
     i18n: company_c
   desc:
-    detail: Review by ICML'2025
+    detail: Review by Neurips'2025
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -192,7 +192,7 @@
     detail: SMUTF - Schema Matching Using Generative Tags and Hybrid Features
     i18n: company_c
   desc:
-    detail: Review by Information Systems
+    detail: Accepted by Information Systems
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -211,7 +211,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: ICMLA'2022 - 2022 21st IEEE International Conference on Machine Learning and Applications 
+    detail: Accepted by ICMLA'2022 - 2022 21st IEEE International Conference on Machine Learning and Applications 
     i18n: company_c_desc
   date:
     detail: March. 2022
@@ -266,7 +266,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: RO-MAN'2023 - 2023 32nd IEEE International Conference on Robot and Human Interactive Communication
+    detail: Accepted by RO-MAN'2023 - 2023 32nd IEEE International Conference on Robot and Human Interactive Communication
     i18n: company_c_desc
   date:
     detail: Dec. 2020
@@ -302,10 +302,10 @@
 
 
 - name:
-    detail: Question ClassiNication with Deep Contextualized Transformer
+    detail: Question Classification with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: FICC'2021 - Proceedings of the 2021 Future of Information and Communication Conference
+    detail: Accepted by FICC'2021 - Proceedings of the 2021 Future of Information and Communication Conference
     i18n: company_c_desc
   date:
     detail: Oct 2019
