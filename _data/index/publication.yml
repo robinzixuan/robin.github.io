@@ -6,7 +6,7 @@
     detail: GenoArmory- A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2024
+    detail: Review by Neurips'2025
     i18n: company_c_desc
   date:
     detail: May. 2025
@@ -23,7 +23,7 @@
     detail: Fast and Low-Cost Genomic Foundation Models via Outlier Removal
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2024
+    detail: Accepted by ICML'2025
     i18n: company_c_desc
   date:
     detail: May. 2025
@@ -32,7 +32,7 @@
     detail: Haozheng Luo*, Chenghao Qiu*, Maojiang Su, Zhihan Zhou, Zoe Mehta, Guo Ye, Jerry Yao-Chieh Hu, Han Liu
     i18n: company_c_job
   link:
-      detail: https://github.com/MAGICS-LAB/GERM
+      detail: https://arxiv.org/pdf/2505.00598
       i18n: company_c_link
   icon: fa-plus-square
 
