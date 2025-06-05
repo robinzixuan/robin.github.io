@@ -15,7 +15,7 @@
     detail: Haozheng Luo*, Chenghao Qiu*, Yimin Wang, Shang Wu, Jiahao Yu, Han Liu, Binghui Wang, Yan Chen
     i18n: company_c_job
   link:
-      detail: https://github.com/MAGICS-LAB/GenoArmory
+      detail: https://arxiv.org/abs/2505.10983
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -23,7 +23,7 @@
     detail: Fast and Low-Cost Genomic Foundation Models via Outlier Removal
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2025
+    detail: International Conference on Machine Learning (ICML) 2025
     i18n: company_c_desc
   date:
     detail: May. 2025
@@ -71,10 +71,10 @@
   icon: fa-plus-square
 
 - name:
-    detail: Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens
+    detail: Mind the Inconspicuous- Revealing the Hidden Weakness in Aligned LLMs’ Ethical Boundaries
     i18n: company_c
   desc:
-    detail: Review by USENIX Security'2025
+    detail: USENIX Security Symposium (USENIX Security) 2025
     i18n: company_c_desc
   date:
     detail: May. 2024
@@ -105,7 +105,7 @@
     detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory - A Case Study in SpeechLM Authors
     i18n: company_c
   desc:
-    detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
+    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024, 2024
     i18n: company_c_desc
   date:
     detail: June. 2024
@@ -123,7 +123,7 @@
     detail: OutEffHop- A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
     i18n: company_c
   desc:
-    detail: Accepted by Efficient Systems for Foundation Models II@ ICML2024
+    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024, 2024
     i18n: company_c_desc
   date:
     detail: June. 2024
@@ -141,7 +141,7 @@
     detail: Outlier Efficient Modern Hopfield Model for Large Transformer-Based Models
     i18n: company_c
   desc:
-    detail: Accepted by ICML'2024 
+    detail: International Conference on Machine Learning (ICML) 2024
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -159,7 +159,7 @@
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
   desc:
-    detail: Accepted by ICLR'2025 
+    detail: International Conference on Learning Representations (ICLR) 2025
     i18n: company_c_desc
   date:
     detail: Jan. 2024
@@ -192,7 +192,7 @@
     detail: SMUTF - Schema Matching Using Generative Tags and Hybrid Features
     i18n: company_c
   desc:
-    detail: Accepted by Information Systems
+    detail: Information Systems (2025)
     i18n: company_c_desc
   date:
     detail: Aug. 2023
@@ -201,7 +201,7 @@
     detail: Yu Zhang*, Di Mei*, Haozheng Luo*, Chenwei Xu, Richard Tzong-Han Tsai
     i18n: company_c_job
   link:
-      detail: https://arxiv.org/abs/2402.01685
+      detail: https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -211,7 +211,7 @@
     detail: IGN - Implicit Generative Networks
     i18n: company_c
   desc:
-    detail: Accepted by ICMLA'2022 - 2022 21st IEEE International Conference on Machine Learning and Applications 
+    detail: IEEE International Conference on Machine Learning and Applications (ICMLA) 2022
     i18n: company_c_desc
   date:
     detail: March. 2022
@@ -266,7 +266,7 @@
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
   desc:
-    detail: Accepted by RO-MAN'2023 - 2023 32nd IEEE International Conference on Robot and Human Interactive Communication
+    detail: IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) 2023
     i18n: company_c_desc
   date:
     detail: Dec. 2020
@@ -305,7 +305,7 @@
     detail: Question Classification with Deep Contextualized Transformer
     i18n: company_c
   desc:
-    detail: Accepted by FICC'2021 - Proceedings of the 2021 Future of Information and Communication Conference
+    detail: Future of Information and Communication Conference (FICC) 2022
     i18n: company_c_desc
   date:
     detail: Oct 2019
