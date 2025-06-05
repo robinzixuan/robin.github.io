@@ -15,7 +15,7 @@
     detail: Haozheng Luo*, Chenghao Qiu*, Yimin Wang, Shang Wu, Jiahao Yu, Han Liu, Binghui Wang, Yan Chen
     i18n: company_c_job
   link:
-      detail: https://github.com/MAGICS-LAB/GenoArmory
+      detail: https://arxiv.org/abs/2505.10983
       i18n: company_c_link
   icon: fa-plus-square
 
@@ -71,10 +71,10 @@
   icon: fa-plus-square
 
 - name:
-    detail: Enhancing Jailbreak Attack Against Large Language Models through Silent Tokens
+    detail: Mind the Inconspicuous- Revealing the Hidden Weakness in Aligned LLMs’ Ethical Boundaries
     i18n: company_c
   desc:
-    detail: Review by USENIX Security'2025
+    detail: Accepted by USENIX Security'2025
     i18n: company_c_desc
   date:
     detail: May. 2024
@@ -201,7 +201,7 @@
     detail: Yu Zhang*, Di Mei*, Haozheng Luo*, Chenwei Xu, Richard Tzong-Han Tsai
     i18n: company_c_job
   link:
-      detail: https://arxiv.org/abs/2402.01685
+      detail: https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE
       i18n: company_c_link
   icon: fa-plus-square
 
