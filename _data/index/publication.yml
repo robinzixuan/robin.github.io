@@ -1,7 +1,54 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-
+- name:
+    detail: Outlier-Free Genomic Foundation Models for Resource-Efficient Training and Low-Bit Inference
+    i18n: company_c
+  desc:
+    detail: Workshop on Efficient Systems for Foundation Models III@ ICML2025
+    i18n: company_c_desc
+  date:
+    detail: June. 2025
+    i18n: company_c_date
+  job:
+    detail: Chenghao Qiu*, Haozheng Luo*, Maojiang Su, Zhihan Zhou, Zoe Mehta, Guo Ye, Jerry Yao-Chieh Hu, Han Liu
+    i18n: company_c_job
+  link:
+      detail: 
+      i18n: company_c_link
+  icon: fa-plus-square
+- name:
+    detail: Knowledge‑Distilled Memory Editing for Plug‑and‑Play LLM Alignment
+    i18n: company_c
+  desc:
+    detail: Workshop on MemFM @ ICML 2025
+    i18n: company_c_desc
+  date:
+    detail: June. 2025
+    i18n: company_c_date
+  job:
+    detail: Haozheng Luo*, Jiahao Yu*, Wenxin Zhang*, Jialong Li, Jerry Yao-Chieh Hu, Yan Chen, Binghui Wang, Xinyu Xing, Han Liu
+    i18n: company_c_job
+  link:
+      detail: 
+      i18n: company_c_link
+  icon: fa-plus-square
+- name:
+    detail: Reasoning with Hierarchical Temporal Tokenization for Human Mobility
+    i18n: company_c
+  desc:
+    detail: Workshop on Efficient Systems for Foundation Models III@ ICML2025
+    i18n: company_c_desc
+  date:
+    detail: June. 2025
+    i18n: company_c_date
+  job:
+    detail: Haoyu He*, Haozheng Luo*, Yan Chen, Qi R. Wang
+    i18n: company_c_job
+  link:
+      detail: 
+      i18n: company_c_link
+  icon: fa-plus-square
 - name:
     detail: GenoArmory- A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models
     i18n: company_c
@@ -105,7 +152,7 @@
     detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory - A Case Study in SpeechLM Authors
     i18n: company_c
   desc:
-    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024, 2024
+    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024
     i18n: company_c_desc
   date:
     detail: June. 2024
@@ -123,7 +170,7 @@
     detail: OutEffHop- A Principled Outlier-Efficient Attention Layer from Dense Associative Memory Models
     i18n: company_c
   desc:
-    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024, 2024
+    detail: Workshop on Efficient Systems for Foundation Models II@ ICML2024
     i18n: company_c_desc
   date:
     detail: June. 2024
