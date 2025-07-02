@@ -204,7 +204,7 @@
       detail: https://dl.acm.org/doi/10.1145/3681771.3699910
       i18n: company_c_link
   icon: fa-plus-square
-  - name:
+- name:
     detail: Fast Adaptation and Robust Quantization of Multi-Modal Foundation Models from Associative Memory - A Case Study in SpeechLM Authors
     i18n: company_c
   desc:
