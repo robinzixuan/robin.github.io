@@ -18,6 +18,7 @@
       detail: https://arxiv.org/abs/2405.20653
       i18n: company_c_link
   icon: fa-plus-square
+  present: true
 - name:
     detail: Fast and Low-Cost Genomic Foundation Models via Outlier Removal
     i18n: company_c
@@ -34,6 +35,7 @@
       detail: https://openreview.net/forum?id=oyUiJmkD7H
       i18n: company_c_link
   icon: fa-plus-square
+  present: true
 - name:
     detail: SMUTF - Schema Matching Using Generative Tags and Hybrid Features
     i18n: company_c
@@ -50,6 +52,7 @@
       detail: https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE
       i18n: company_c_link
   icon: fa-plus-square
+  present: true
 - name:
     detail: Chain-of-action- Faithful and Multimodal Question Answering through Large Language Models
     i18n: company_c
@@ -66,6 +69,7 @@
       detail: https://openreview.net/forum?id=1BdPHbuimc
       i18n: company_c_link
   icon: fa-plus-square
+  present: true
 - name:
     detail: Outlier Efficient Modern Hopfield Model for Large Transformer-Based Models
     i18n: company_c
@@ -82,7 +86,7 @@
       detail: https://openreview.net/forum?id=kLiDMGJKx1
       i18n: company_c_link
   icon: fa-plus-square
-
+    present: true
 - name:
     detail: IGN - Implicit Generative Networks
     i18n: company_c
@@ -99,6 +103,7 @@
       detail:  https://ieeexplore.ieee.org/abstract/document/10069446
       i18n: company_c_link
   icon: fa-plus-square
+  present: true
 - name:
     detail: Open-ended multi-modal relational reason for video question answering
     i18n: company_c
@@ -115,25 +120,7 @@
       detail: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10309342
       i18n: company_c_link
   icon: fa-plus-square
-
-
-
-- name:
-    detail: HOW TO DESIGN SAMPLE AND COMPUTATIONALLY EFFICIENT VQA MODELS
-    i18n: company_b
-  desc:
-    detail: 
-    i18n: company_b_desc
-  date:
-    detail: Oct 2020
-    i18n: company_b_date
-  job:
-    detail: Karan Samel*, Zelin Zhao*, Kuan Wang*, Haozheng Luo, Binghong Chen, Song Le
-    i18n: company_b_job
-  link:
-      detail: https://arxiv.org/pdf/2103.11537.pdf
-      i18n: company_c_link
-  icon: fa-plus-square
+    present: true
 
 - name:
     detail: Question Classification with Deep Contextualized Transformer
@@ -151,7 +138,7 @@
       detail: https://link.springer.com/chapter/10.1007/978-3-030-73103-8_32
       i18n: company_c_link
   icon: fa-plus-square
-
+present: true
   - name:
     detail: Outlier-Free Genomic Foundation Models for Resource-Efficient Training and Low-Bit Inference
     i18n: company_c
