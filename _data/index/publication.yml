@@ -86,7 +86,7 @@
       detail: https://openreview.net/forum?id=kLiDMGJKx1
       i18n: company_c_link
   icon: fa-plus-square
-    present: true
+  present: true
 - name:
     detail: IGN - Implicit Generative Networks
     i18n: company_c
@@ -120,7 +120,7 @@
       detail: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10309342
       i18n: company_c_link
   icon: fa-plus-square
-    present: true
+  present: true
 
 - name:
     detail: Question Classification with Deep Contextualized Transformer
@@ -138,8 +138,8 @@
       detail: https://link.springer.com/chapter/10.1007/978-3-030-73103-8_32
       i18n: company_c_link
   icon: fa-plus-square
-present: true
-  - name:
+  present: true
+- name:
     detail: Outlier-Free Genomic Foundation Models for Resource-Efficient Training and Low-Bit Inference
     i18n: company_c
   desc:
