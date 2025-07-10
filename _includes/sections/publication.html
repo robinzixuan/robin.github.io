@@ -5,25 +5,49 @@
             <h1><span data-i18n="publication.my_publication">Publication</span></h1>
         </div>
     </div>
-    <div class="row features-block">
-        <div class="col-lg-12">
-            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-            {% for publication in site.data.index.publication %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon {% if publication.present ==  true %} navy-bg-present {% else %} navy-bg {% endif %} wow rotateIn">
-                        <i class="fa {{ publication.icon }}"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        
-                        <h2><a href="{{ publication.link.detail }}" data-i18n="publication.{{ publication.link.i18n }}">{{ publication.name.detail }}</a></h2>
-                        <p><span data-i18n="publication.{{ publication.desc.i18n }}">{{ publication.desc.detail }} </span></p>
-                        <span class="vertical-date"><span data-i18n="publication.{{ publication.date.i18n }}"> {{ publication.date.detail }} </span>
-                        <br/> <small><span data-i18n="publication.{{ publication.job.i18n }}">{{ publication.job.detail }}</span></small> </span>
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
-        </div>
-    </div>
+    <body>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lssr_image'>
+                  <img src='images/go.png' width="160"></div>
+                <img src='images/go.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.biorxiv.org/content/10.1101/2025.01.30.635558v1">
+                <papertitle>GenomeOcean: An Efficient Genome Foundation Model Trained on Large-Scale Metagenomic Assemblies</papertitle>
+              </a>
+              <br>
+              <strong>Zhihan Zhou</strong>, Robert Riley,  Satria Kautsar,  Weimin Wu, Rob Egan, Steven Hofmeyr, Shira Goldhaber-Gordon, Mutian Yu,  Harrison Ho, Fengchen Liu, Feng Chen,  Rachael Morgan-Kiss, Lizhen Shi, Han Liu,  Zhong Wang
+              <br>
+              <em>Preprint, 2025
+              <br>
+              <a href="https://www.biorxiv.org/content/10.1101/2025.01.30.635558v1.full.pdf">paper</a> /
+              <a href="https://github.com/jgi-genomeocean/genomeocean">code</a> /
+              <a href="https://huggingface.co/pGenomeOcean/GenomeOcean-4B">model</a>
+              <p></p>
+              <p>
+                GenomeOcean is a 4B generative genome foundation model which produces protein-coding genes that respect evolutionary constraints and synthesizes large genomic modules such as biosynthetic gene clusters.
+              </p>
+            </td>
+          </tr> 
+
+
+
+
+        </tbody></table>
+</body>
 </div>
