@@ -82,6 +82,46 @@
             </td>
           </tr> 
 
+
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+
+                <img src='images/dapa.png' width="320">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2406.01514">
+                <papertitle>Knowledge‑Distilled Memory Editing for Plug‑and‑Play LLM Alignment</papertitle>
+              </a>
+              <br>
+              <strong>Haozheng Luo*</strong>, Jiahao Yu*, Wenxin Zhang*, Jialong Li, Jerry Yao-Chieh Hu, Yan Chen, Binghui Wang, Xinyu Xing, Han Liu
+              <br>
+              <em> Workshop on MemFM @ ICML 2025
+              <br>
+              <a href="https://arxiv.org/abs/2406.01514">paper</a> /
+              <a href="https://github.com/MAGICS-LAB/DAPA">code</a> 
+              <p></p>
+              <p>
+                 We propose a low-resource method to align LLMs for safety by distilling alignment-relevant knowledge from well-aligned models and identifying essential components via delta debugging, enabling plug-and-play integration into unaligned LLMs.
+ 
+              </p>
+            </td>
+          </tr> 
+    
+    
     <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -108,7 +148,7 @@
               <br>
               Yu Zhang*, Mei Di*, <strong>Haozheng Luo*</strong>, Chenwei Xu, Richard Tzong-Han Tsai
               <br>
-              <em> Information Systems Volume 133
+              <em> Information Systems Volume 133, 2025
               <br>
               <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE">paper</a> /
               <a href="https://github.com/MAGICS-LAB/SMUTF">code</a> 
