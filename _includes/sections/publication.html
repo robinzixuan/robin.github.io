@@ -48,9 +48,8 @@
     <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lssr_image'>
-                  <img src='images/dnaberts.png' width="160"></div>
-                <img src='images/dnaberts.png' width="160">
+
+                <img src='images/BOOST.png' width="160">
               </div>
               <script type="text/javascript">
                 function lssr_start() {
@@ -74,11 +73,49 @@
               <br>
               <em>USENIX Security Symposium (USENIX Security) 2025
               <br>
-              <a href="http://usenix.org/conference/usenixsecurity25/presentation/yu-jiahao">paper</a> /
+              <a href="https://arxiv.org/pdf/2405.20653">paper</a> /
               <a href="https://github.com/MAGICS-LAB/XLLM">code</a> 
               <p></p>
               <p>
                 <b>Mind the Inconspicuous</b> is a study showing that appending multiple \eos tokens triggers context segmentation in aligned LLMs, shifting inputs toward refusal boundaries and enabling jailbreaks, with up to 16× increased attack success rates across 16 models and major APIs like OpenAI and Anthropic.
+              </p>
+            </td>
+          </tr> 
+
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+
+                <img src='images/SMUTF.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE">
+                <papertitle>SMUTF - Schema Matching Using Generative Tags and Hybrid Features</papertitle>
+              </a>
+              <br>
+              Yu Zhang*, Mei Di*, <strong>Haozheng Luo*</strong>, Chenwei Xu, Richard Tzong-Han Tsai
+              <br>
+              <em> Information Systems Volume 133
+              <br>
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE">paper</a> /
+              <a href="https://github.com/MAGICS-LAB/SMUTF">code</a> 
+              <p></p>
+              <p>
+                 <b>SMUTF</b> is a schema matching framework that combines rule-based features, pre-trained and generative LLMs with novel “generative tags” to enable effective cross-domain matching, achieving up to 11.84% F1 and 5.08% AUC gains over SOTA, with the new HDXSM dataset released to support large-scale open-domain schema matching.
+ 
               </p>
             </td>
           </tr> 
