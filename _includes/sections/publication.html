@@ -7,6 +7,9 @@
     </div>
     <body>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        
+
+    
           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -82,7 +85,44 @@
             </td>
           </tr> 
 
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
 
+                <img src='images/geno.png' width="320">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2505.10983">
+                <papertitle>GenoArmory: A Unified Evaluation Framework for Adversarial Attacks on Genomic Foundation Models</papertitle>
+              </a>
+              <br>
+              <strong>Haozheng Luo*</strong>, Chenghao Qiu*, Yimin Wang, Shang Wu, Jiahao Yu, Han Liu, Binghui Wang, Yan Chen
+              <br>
+              <em> Preprint, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2505.10983">paper</a> /
+              <a href="https://github.com/MAGICS-LAB/GenoArmory">code</a> /
+              <a href="https://huggingface.co/datasets/magicslabnu/GenoAdv">datasets</a> /    
+              <p></p>
+              <p>
+                GenoArmory is the first unified adversarial attack benchmark for Genomic Foundation Models (GFMs), offering a comprehensive framework and the GenoAdv dataset to evaluate model vulnerabilities across architectures, quantization, and tasks, revealing that classification GFMs are more robust than generative ones and that attacks often target biologically meaningful regions.
+ 
+              </p>
+            </td>
+          </tr> 
     <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
