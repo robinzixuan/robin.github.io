@@ -8,7 +8,42 @@
     <body>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         
+        <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
 
+                <img src='images/rythem.png' width="320">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=DCvCv02uNf">
+                <papertitle>RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility</papertitle>
+              </a>
+              <br>
+              Haoyu He*, <strong>Haozheng Luo*</strong>, Yan Chen, Qi R. Wang
+              <br>
+              <em> Advances in Neural Information Processing Systems 39 (NeurIPS) 2025
+              <br>
+              <a href="https://openreview.net/forum?id=DCvCv02uNf">paper</a> 
+   
+              <p></p>
+              <p>
+                 RHYTHM is a framework that uses hierarchical temporal tokenization and frozen LLMs to efficiently model human mobility, achieving 2.4% higher accuracy (5.0% on weekends) and 24.6% faster training by capturing spatio-temporal dependencies with reduced sequence lengths and enriched prompt embeddings.
+              </p>
+            </td>
+          </tr> 
     
           <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -161,44 +196,9 @@
             </td>
           </tr> 
 
-    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-
-                <img src='images/rythem.png' width="320">
-              </div>
-              <script type="text/javascript">
-                function lssr_start() {
-                  document.getElementById('lssr_image').style.opacity = "1";
-                }
-
-                function lssr_stop() {
-                  document.getElementById('lssr_image').style.opacity = "0";
-                }
-                lssr_stop()
-              </script>
-            </td>
-
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openreview.net/forum?id=DCvCv02uNf">
-                <papertitle>Efficient Temporal Tokenization for Mobility Prediction with Large Language Models</papertitle>
-              </a>
-              <br>
-              Haoyu He*, <strong>Haozheng Luo*</strong>, Yan Chen, Qi R. Wang
-              <br>
-              <em> Workshop on Efficient Systems for Foundation Models III@ ICML2025
-              <br>
-              <a href="https://openreview.net/forum?id=DCvCv02uNf">paper</a> 
-   
-              <p></p>
-              <p>
-                 RHYTHM is a framework that uses hierarchical temporal tokenization and frozen LLMs to efficiently model human mobility, achieving 2.4% higher accuracy (5.0% on weekends) and 24.6% faster training by capturing spatio-temporal dependencies with reduced sequence lengths and enriched prompt embeddings.
-              </p>
-            </td>
-          </tr> 
     
-    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+    
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
 
