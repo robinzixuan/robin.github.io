@@ -2,7 +2,9 @@
     detail: Northwestern University 
     i18n: company_y
   desc: 
-    detail: Investigated the interpretability of Jailbreak strategies in safety-aligned LLMs using in-context learning and knowledge distillation to improve alignment and safety in superhuman AI systems, achieving a 14.41% increase in defense rate on the original models without compromising performance.Integrated a Modern Hopfield Network and Softmax1 into Foundation Models to tackle the challenge of no-op outliers and enhance model quantization robustness. This integration led to an average reduction of over 22% in output kurtosis and more than 26% in the maximum infinity norm across four models. Developed a robust, quantizable transformer-based framework extending Large Language Models to Multi-Modal Foundation Models (Text, Vision, Speech, Genome) to enable rapid adaptation and robust quantization using an outlier removal strategy. This approach achieved a 41% improvement in cross-modal low-rank adaptation, 45% enhancement in post-training quantization, and a 1.33x increase in training speed.Developed a novel LLM reasoning approach that combines Chain-of-Thought techniques with tool usage and memory retrieval, achieving a 3.42% improvement without information retrieval and a 6.14% boost with information retrieval over state-of-the-art baselines, such as SearchChain.
+    detail: (1)Investigated the interpretability of Jailbreak strategies in safety-aligned LLMs using in-context learning and knowledge distillation to improve alignment and safety in superhuman AI systems, achieving a 14.41% increase in defense rate on the original models without compromising performance.(2)Integrated a Modern Hopfield Network and Softmax1 into Foundation Models to tackle the challenge of no-op outliers and enhance model quantization robustness. This integration led to an average reduction of over 22% in output kurtosis and more than 26% in the maximum infinity norm across four models. 
+    (3)Developed a robust, quantizable transformer-based framework extending Large Language Models to Multi-Modal Foundation Models (Text, Vision, Speech, Genome) to enable rapid adaptation and robust quantization using an outlier removal strategy. This approach achieved a 41% improvement in cross-modal low-rank adaptation, 45% enhancement in post-training quantization, and a 1.33x increase in training speed.
+    (4)Developed a novel LLM reasoning approach that combines Chain-of-Thought techniques with tool usage and memory retrieval, achieving a 3.42% improvement without information retrieval and a 6.14% boost with information retrieval over state-of-the-art baselines, such as SearchChain.
     i18n: company_y_desc
   date:
     detail: Dec. 2021 - Present
@@ -18,7 +20,8 @@
     detail: Northwestern University 
     i18n: company_z
   desc:
-    detail: Worked on distributed deep reinforcement learning by implementing the IQN model with the Wasserstein GAN algorithm. Designed a policy evaluation experiment using the Atari Game Database with fixed policy input and compared results with a baseline fixed policy. Developed policy optimization for the IQN model using the Wasserstein GAN algorithm.
+    detail: (1)Worked on distributed deep reinforcement learning by implementing the IQN model with the Wasserstein GAN algorithm. Designed a policy evaluation experiment using the Atari Game Database with fixed policy input and compared results with a baseline fixed policy. 
+    (2)Developed policy optimization for the IQN model using the Wasserstein GAN algorithm.
     i18n: company_z_desc
   date:
     detail: Sept. 2021 - Nov. 2021
@@ -33,7 +36,8 @@
     detail: Northwestern University 
     i18n: company_x
   desc:
-    detail: Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. Contributed to a paper in progress, RobLAX-A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.
+    detail: (1)Worked on model-free reinforcement learning to achieve state-of-the-art performance in a physical simulator. Implemented PPO and SAC algorithms to compute and visualize reinforcement learning rewards. 
+    (2)Contributed to a paper in progress, RobLAX-A Differentiable Robotics Framework for Physics-Augmented Reinforcement Learning.
     i18n: company_x_desc
   date:
     detail: May. 2021 - Sept. 2021
@@ -48,7 +52,8 @@
     detail: Georgia Institute of Technology
     i18n: company_a
   desc:
-    detail: Developed an NLP labeling pipeline for the brat annotation tool. Researched polysemy problems and applied the BERT model for target word and phrase labeling. Studied the Operational Transformation Algorithm to enable collaborative real-time editing in the cloud.
+    detail: (1)Developed an NLP labeling pipeline for the brat annotation tool. Researched polysemy problems and applied the BERT model for target word and phrase labeling. 
+    (2)Studied the Operational Transformation Algorithm to enable collaborative real-time editing in the cloud.
     i18n: company_a_desc
   date:
     detail: Sept. 2020 - May 2021
@@ -64,7 +69,8 @@
     detail: Georgia Institute of Technology
     i18n: company_b
   desc:
-    detail: Worked on Continuous Neuro-Symbolic Visual Question Answering (VQA), particularly researching soft logic functions. Designed and implemented a reasoning model combining BERT, bidirectional LSTM, and Stack-NMN, and evaluated its performance against other VQA models. Researched Video Question Answering and developed a model using R(2+1)D to detect object actions and movements. Contributed to a paper in progress, “Differentiable End-to-End Program Executor for Sample and Computationally Efficient VQA.”
+    detail: (1)Worked on Continuous Neuro-Symbolic Visual Question Answering (VQA), particularly researching soft logic functions. Designed and implemented a reasoning model combining BERT, bidirectional LSTM, and Stack-NMN, and evaluated its performance against other VQA models. 
+    (2)Researched Video Question Answering and developed a model using R(2+1)D to detect object actions and movements. Contributed to a paper in progress, “Differentiable End-to-End Program Executor for Sample and Computationally Efficient VQA.”
     i18n: company_b_desc
   date:
     detail: Aug. 2020 - Oct 2020
@@ -80,7 +86,8 @@
     detail: Georgia Institute of Technology
     i18n: company_c
   desc:
-    detail: Researched the Visual Question Answering (VQA) problem using the NS-VQA algorithm to classify object relationships in images and answer GQA questions. Investigated reasoning mechanisms and improved performance using bidirectional LSTMs. Explored the functionality and latest advancements in VQA technology.
+    detail: (1)Researched the Visual Question Answering (VQA) problem using the NS-VQA algorithm to classify object relationships in images and answer GQA questions. 
+    (2)Investigated reasoning mechanisms and improved performance using bidirectional LSTMs. Explored the functionality and latest advancements in VQA technology.
   date:
     detail: Aug. 2019 - May 2020
     i18n: company_c_date
@@ -95,7 +102,8 @@
     detail: Georgia Institute of Technology
     i18n: company_d
   desc:
-    detail: Developed a computational pipeline for analyzing adsorption energy in chemical reactions using Python and the ASE API. Implemented a machine learning model to analyze chemical molecular structures.
+    detail: (1)Developed a computational pipeline for analyzing adsorption energy in chemical reactions using Python and the ASE API. 
+    (2)Implemented a machine learning model to analyze chemical molecular structures.
   date:
     detail: Jan. 2019 - May 2020
     i18n: company_d_date
