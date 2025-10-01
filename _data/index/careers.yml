@@ -1,18 +1,21 @@
   # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+
 - name:
-    detail: Georgia Institute of Technology
+    detail: RTX
     i18n: company_a
   desc:
-    detail: I grade students’ projects and exams and provide feedback to facilitate improvement; Have a solid understanding of algorithms in KMM, Gradient Model and Neural-Networks; Provide students with the means to succeed by holding ofkice hours and responding to questions online
+    detail: I analyzed the reasoning exploration–exploitation tradeoffs by leveraging sentence-level attention and entropy, which provided fine-grained insights into model decision dynamics. Building on this, I designed a new GRPO training policy with sentence-level attention rewards that successfully reduced reasoning time by 15%. Furthermore, I developed an OutEffHop-based method to eliminate reasoning outliers, achieving a 30% reduction in uncritical reasoning paths and leading to more efficient and reliable reasoning performance.
     i18n: company_a_desc
   date:
-    detail: Augest. 2020 - May 2021
+    detail: May. 2025 - September 2025
     i18n: company_a_date
   job:
-    detail: Graduate Teaching Assistant
+    detail: LLM Research Scientist Intern. 
     i18n: company_a_job
   icon: fa-plus-square
+
 
 - name:
     detail: Splunk
