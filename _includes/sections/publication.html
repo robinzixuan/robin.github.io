@@ -27,7 +27,45 @@
     </div>
     <body>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <div class="badge">ICLR 2026</div>
+                  <img src='images/GERM.png' width="480">
+          
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=oyUiJmkD7H">
+                <papertitle>FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning</papertitle>
+              </a>
+              <br>
+              <strong>Haozheng Luo</strong>, Zhuolin Jiang, Md Zahid Hasan, Yan Chen, Soumalya Sarkar
+              <br>
+              <em>International Conference on Learning Representations (ICLR) 2026
+              <br>
+              <a href="">paper</a> /
+              <a href="">code</a> 
+              <p></p>
+              <p>
+                <b>GERM</b> is a genomic foundation model optimized for low-resource settings by removing outliers, enhancing low-rank adaptation and quantization, achieving up to 64.34% efficiency gains and 37.98% better fine-tuning performance over baseline models.
+              </p>
+            </td>
+          </tr> 
         
+  
+  
         <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -52,7 +90,7 @@
                 <papertitle>RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility</papertitle>
               </a>
               <br>
-              <strong>Haozheng Luo*</strong>, Haoyu He*, Yan Chen, Qi R. Wang
+              Haoyu He*, <strong>Haozheng Luo*</strong>, Yan Chen, Qi R. Wang
               <br>
               <em> Advances in Neural Information Processing Systems 39 (NeurIPS) 2025
               <br>
