@@ -216,7 +216,8 @@
               </p>
             </td>
           </tr> 
-    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+
+  <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
 
@@ -249,6 +250,46 @@
               <p></p>
               <p>
                  We propose a low-resource method to align LLMs for safety by distilling alignment-relevant knowledge from well-aligned models and identifying essential components via delta debugging, enabling plug-and-play integration into unaligned LLMs.
+ 
+              </p>
+            </td>
+          </tr> 
+
+
+
+  
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+
+                <img src='images/tides.png' width="480">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=tXRUpMp7xO">
+                <papertitle>TIDES: Test-time Inference Drift Exploitation via Scaling</papertitle>
+              </a>
+              <br>
+              Haoran Dai, <strong>Haozheng Luo*</strong>, Haotian Zhang, Meng Lin, Yan Chen, Binghui Wang
+              <br>
+              <em> Workshop on ES-Reasoning @ ICLR 2026
+              <br>
+              <a href="https://openreview.net/forum?id=tXRUpMp7xO">paper</a>
+              <p></p>
+              <p>
+                 We introduce TIDES, a reasoning attack that uncovers a fundamental failure mode of test-time scaling, where extending reasoning depth degrades rather than improves model accuracy. Through a depth-guided latent tracker that injects bounded intermediate perturbations, we show theoretically and empirically that small trajectory shifts induce persistent inference drift, yielding a 30.3% improvement over prior attacks on state-of-the-art reasoning models.
  
               </p>
             </td>
