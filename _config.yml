@@ -30,7 +30,7 @@ author:   # change following line to your infomation.
   skill_icon2:
     - name: icon-go
     - name: icon-ghost
-  desc: Computer Science PhD ∈ Northwestern University, Adobe Fellow and a DAAD AINeT Fellow, Founder of [GLB²](https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/)  # Describe yourself.
+  desc: Computer Science PhD ∈ Northwestern University, Adobe Fellow and a DAAD AINeT Fellow, Founder of GLB² # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
