@@ -22,14 +22,15 @@ author:   # change following line to your infomation.
   email: luohaozh@gmail.com  # Leave blank if you don't have now
   phone: 8592709279
   instagram: robinzixuan1997
-  cv: https://drive.google.com/file/d/15dh7OjMH-Rrz_Mow8O0RrUgNdYvy_Rbl/view?usp=sharing # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/file/d/19y9inWeUZElMUq7lq0wR2JbQ457ubQDb/view?usp=sharing # An online CV can be printed as PDF, leave blank if you don't have now
+  org_link: https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/
   skill_icon1:
     - name: icon-ghost
     - name: icon-go
   skill_icon2:
     - name: icon-go
     - name: icon-ghost
-  desc: Computer Science PhD ∈ Northwestern University  # Describe yourself.
+  desc: Computer Science PhD ∈ Northwestern University, Adobe Fellow and a DAAD AINeT Fellow, Founder of GLB² # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
