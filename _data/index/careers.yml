@@ -2,7 +2,7 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
-    detail: RTX
+    detail: ByteDance Inc.
     i18n: company_a
   desc:
     detail: Investigate the key failure modes of LoRA-based adaptation, especially under supervised fine-tuning (SFT) and on-policy distillation (OPD). Develop an energy-function-guided optimization framework that narrows the performance gap between full fine-tuning and LoRA while maintaining low-rank adaptation.
