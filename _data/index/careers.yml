@@ -5,7 +5,7 @@
     detail: ByteDance Inc.
     i18n: company_a
   desc:
-    detail: Investigate the key failure modes of LoRA-based adaptation, especially under supervised fine-tuning (SFT) and on-policy distillation (OPD). Develop an energy-function-guided optimization framework that narrows the performance gap between full fine-tuning and LoRA while maintaining low-rank adaptation.
+    detail: I investigated key failure modes of LoRA-based adaptation across SFT and Group Relative Policy Optimization (GRPO), with a focus on rank-dependent optimization stability and training dynamics. Furthermore, I developed a theoretically grounded linear predictor for LoRA learning rates, achieving \textbf{91\%} prediction accuracy while reducing hyperparameter-sweep time by over \textbf{60\%}.
     i18n: company_a_desc
   date:
     detail: May. 2026 - September 2026
