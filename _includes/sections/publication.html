@@ -446,7 +446,41 @@
             </td>
           </tr> 
 
-    
+    <tr onmouseout="lssr_stop()" onmouseover="lssr_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+
+                <img src='images/st.png' width="480">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=tXRUpMp7xO">
+                <papertitle>ST-MoE-BERT: A Spatial-Temporal Mixture-of-Experts Framework for Long-Term Cross-City Mobility Prediction</papertitle>
+              </a>
+              <br>
+              Haoyu He, <strong>Haozheng Luo</strong>, Qi R. Wang
+              <br>
+              <em> 2nd ACM SIGSPATIAL International Workshop on the Human Mobility Prediction Challenge
+              <br>
+              <a href="https://dl.acm.org/doi/10.1145/3681771.3699910">paper</a>
+              <p></p>
+              <p>
+              ST-MoE-BERT integrates Mixture-of-Experts, BERT, and transfer learning to model cross-city spatial-temporal mobility as a classification task, achieving an average 8.29% improvement over state-of-the-art methods on GEO-BLEU and DTW. 
+              </p>
+            </td>
+          </tr> 
     
     <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
