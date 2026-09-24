@@ -27,6 +27,42 @@
     </div>
     <body>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  
+      <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="badge">NeurIPS 2026</div>
+                <img src='images/oasis.png' width="480">
+              </div>
+              <script type="text/javascript">
+                function lssr_start() {
+                  document.getElementById('lssr_image').style.opacity = "1";
+                }
+
+                function lssr_stop() {
+                  document.getElementById('lssr_image').style.opacity = "0";
+                }
+                lssr_stop()
+              </script>
+            </td>
+
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/forum?id=p5zaXPgMvh">
+                <papertitle>Attention Sinks and Outliers in Attention Residuals</papertitle>
+              </a>
+              <br>
+              <strong>Haozheng Luo*</strong>, Haoran Dai*, Jingyuan Huang*, Shaoyang Zhang, Xi Chen, Eric Hanchen Jiang, Yijiang Li, Chenghao Qiu, Chenwei Xu, Zhenyu Pan, Haotian Zhang, Binghui Wang, Yan Chen
+              <em>  Advances in Neural Information Processing Systems 40 (NeurIPS) 2026 
+              <br>
+              <a href="https://arxiv.org/abs/2605.17887">paper</a> /
+              <a href="https://github.com/robinzixuan/OASIS">code</a> 
+              <p></p>
+              <p>
+                 We propose OASIS, an outlier- and sink-aware method that introduces Softmax1-based null routing and inter-layer null signaling to mitigate the attention sinks and activation outliers amplified by AttnResidual’s dual-normalization design. Across three datasets and five baselines, OASIS reduces maximum infinity norm and kurtosis by 9.26% and 2.60%, respectively, while lowering W8A8 perplexity by 75.85% and improving W4A4 GSM8K Pass@1 by 12.42%.
+              </p>
+            </td>
+          </tr> 
 
 
       <tr onmouseout="lssr_stop()" onmouseover="lssr_start()" bgcolor="#ffffd0">
