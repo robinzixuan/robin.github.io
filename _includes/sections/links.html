@@ -38,7 +38,10 @@
 
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <!-- views counter via vercount (the old jack003 counter service is gone); hidden until the count loads -->
+            <style>.site-pv:has(> .navy:empty) { display: none; }</style>
+            <p><span class="site-pv"><span class="navy" id="vercount_value_site_pv"></span>&nbsp;<span data-i18n="link.view">views</span>&nbsp;||&nbsp;</span><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <script defer src="https://events.vercount.one/js"></script>
         </div>
     </div>
 
