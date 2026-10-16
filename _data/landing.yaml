@@ -105,3 +105,14 @@
   tpl: links.html
   css: contact
 
+# external links: shown in the navbar only (no section rendered)
+- id: oasis
+  i18n: nav.oasis
+  name: OASIS
+  page: https://oasis-research.github.io/
+
+- id: glb2
+  i18n: nav.glb2
+  name: GLB²
+  page: https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/
+
