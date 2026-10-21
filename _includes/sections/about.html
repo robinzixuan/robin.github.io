@@ -1,3 +1,4 @@
+
 <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
@@ -22,28 +23,28 @@
                 <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
                 <ul class="list-inline social-icon">
                     {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt"></i></a></li>
                     {% endif %}
                     {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
                     {% endif %}
                     {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/profile.php?id=100010607108858" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010607108858" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
                     {% endif %}
                     {% if site.author.email %}
                     <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
                     {% if site.author.phone %}
-                    <li><a href="tel:{{ site.author.phone }}" target="blank"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+                    <li><a href="tel:{{ site.author.phone }}"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.instagram %}
-                    <li><a href="https://www.instagram.com/{{ site.author.instagram }}" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i></a></li>
                     {% endif %}
                 </ul>
             </div>
@@ -59,17 +60,138 @@
         </div>
         {% endfor %}
     </div>
+    <script>
+        today = new Date()
+        past = new Date(2022,09,20) // remember this is equivalent to 06 01 2010
+        //dates in js are counted from 0, so 05 is june
+        
+        function calcDate(date1,date2) {
+            var diff = Math.floor(date1.getTime() - date2.getTime());
+            var day = 1000 * 60 * 60 * 24;
+        
+            var days = Math.floor(diff/day);
+            var months = Math.floor(days/31);
+            var years = Math.floor(months/12) + 1;
+            
+            var message = years;
+            // var message = date2.toDateString();
+            // message += " was "
+            // message += days + " days " 
+            // message += months + " months "
+            // message += years + " years ago \n"
+        
+            return message
+            }
+        var time = calcDate(today, past)
+
+        </script>
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="about_me.des">{{ site.author.desc }}</span></p>
-            <p style="color:black;">I am the first-year Ph.D. student in the Computer Science department at Northwestern University, advising by the Professor Han Liu. Prior to this, I was a master’s student in the Computer Science department at the Georgia Institute of Technology, Atlanta, where I was involved with three projects:: </p>
+    <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
+        <p><span data-i18n="about_me.des">{{ site.author.desc }}</span></p>
+    </div>
+    <div class="col-lg-8 col-lg-offset-2 m-t-lg m-b-lg wow zoomIn">
+        <p style="color:black;">
+            I am a Final-year Ph.D. candidate in the 
+            <a href="https://www.mccormick.northwestern.edu/computer-science/">Computer Science</a> Department at 
+            <a href="https://www.northwestern.edu/">Northwestern University</a>, advised by 
+            Professor <a href='https://users.cs.northwestern.edu/~ychen/'>Yan Chen</a>
+            in the LIST Lab.
+            I am pleased to have been advised by Professor <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html">Han Liu</a> before joining LIST Lab.
+            I am an Adobe Fellow and a DAAD AINeT Fellow, recognized for my research on AI safety, efficient reasoning, and foundation models.
+            I am also the founder of <a href="https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/">GLB²</a>, an open-source community that brings together researchers from computer science, engineering, biology, chemistry, cognitive science, and related fields. The initiative focuses on extending large language models beyond traditional boundaries to support real-world downstream applications in everyday settings.
+        </p>
+        <p style="color:black;">
+            My research focuses on the learning aspects of AI - to enable efficient (e.g. Quantization Robustness <a href="https://openreview.net/forum?id=kLiDMGJKx1">[ICML '24]</a>  <a href="https://openreview.net/forum?id=oyUiJmkD7H">[ICML '25]</a>, Efficient Reasoning <a href="https://openreview.net/forum?id=a9dngZLqGS">[ICLR '26]</a>, and Parameter Efficient Finetuning <a href="https://openreview.net/forum?id=oyUiJmkD7H">[ICML '25]</a> <a href="https://openreview.net/forum?id=1v0ULVJOZ9">[NeurIPS '25]</a>) and safety (<a href="https://www.usenix.org/conference/usenixsecurity25/presentation/yu-jiahao">[USENIX Security '25]</a>, <a href="https://openreview.net/forum?id=56cQPBIg4R">[ICML '26a]</a>, <a href="https://openreview.net/forum?id=5D3ZblXmW2">[ICML '26b]</a>, <a href="https://arxiv.org/abs/2406.01514">[COLM '26a]</a>) in Large Language Model (<a href="https://openreview.net/forum?id=1BdPHbuimc">[ICLR '25]</a> ), Large Reasoning Model (<a href="https://openreview.net/forum?id=a9dngZLqGS">[ICLR '26]</a>, <a href="https://arxiv.org/abs/2603.17305">[ICML '26a]</a>) and multi-modal (<a href="https://openreview.net/forum?id=DCvCv02uNf">[ES-FoMo@ICML '25]</a>) environments. 
+            
+        </p>
+        <p style="color:black;">Particularly, I am interested in:</p>
+        <ul>
+            <li><b>Large Foundation Models:</b></li>
             <ul>
-                <li>SciAnnotate (supervised by Professor Song Le): It is an annotation tool for the natural sciecne student to use to annotate the specific labels from their report, paper and so on. It is an application of the NLP work with the NER recogation and Noiseing Cancellation </li> 
-                <li>RobLAX (supervised by Professor Zhaoran Wang, Northwestern University): a physical robotic simulator with  model-free reinforcement learning to show SOTA performance </li>
-                <li>Clothes Chatbot (supervised by Professor Han Liu, Northwestern University): chatbot for the daily conversation with the customer in the situation of the clothes store</li>
+                <li>
+                    <b>Comprehensible Foundation Models</b>, integrating modern Hopfield networks. 
+                    <a href="https://openreview.net/forum?id=kLiDMGJKx1">[ICML '24]</a>
+                </li>
+                <li>
+                    <b>Responsible Foundation Models</b>, encompassing jailbreaks, adversarial attacks, and risks 
+                    associated with scientific foundation models. 
+                    <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/yu-jiahao">[USENIX Security '25]</a> 
+                    <a href="https://openreview.net/forum?id=56cQPBIg4R">[ICML '26a]</a> 
+                    <a href="https://openreview.net/forum?id=5D3ZblXmW2">[ICML '26b]</a> 
+                    <a href="https://arxiv.org/abs/2406.01514">[COLM '26a]</a>
+                    <a href="https://openreview.net/forum?id=tXRUpMp7xO">[ES-Reasoning@ICLR '26]</a>
+                </li>
+                <li>
+                    <b>Accessible Foundation Models</b>, incorporating PEFT, quantization, and outlier removal for 
+                    efficient training and enhanced quantization robustness. 
+                    <a href="https://openreview.net/forum?id=kLiDMGJKx1">[ICML '24]</a> 
+                    <a href="https://openreview.net/forum?id=oyUiJmkD7H">[ICML '25]</a>
+                    <a href="https://openreview.net/forum?id=a9dngZLqGS">[ICLR '26]</a>
+                    <a href="https://arxiv.org/abs/2605.29268">[EMNLP '26]</a>
+                    <a href="https://arxiv.org/abs/2605.17887">[NeurIPS '26]</a>
+                    <a href="https://openreview.net/forum?id=kZBM2UYiQh">[ES-FoMo@ICML '24]</a>
+                </li>
+                <li>
+                    <b>Actionable Foundation Models</b>, focusing on Chain-of-Thought and Chain-of-Action methodologies, as well as research on multi-agent systems.
+                    <a href="https://openreview.net/forum?id=1BdPHbuimc">[ICLR '25]</a> 
+                    <a href="https://arxiv.org/abs/2405.17822">[arXiv]</a>
+                    <a href="https://arxiv.org/abs/2604.00344">[COLM '26b]</a>
+                </li>
             </ul>
-        <p style="color:black;"> Besides the school and research work, I have found my interests in lots of things over time including photography, hiking and traveling.</p> 
-        </div>
-           
+            <li>
+                <b>Applications of Large Foundation Models</b>, including Genomic Foundation Models and Human Mobility 
+                Foundation Models. 
+                <a href="https://openreview.net/forum?id=oyUiJmkD7H">[ICML '25]</a>
+                <a href="https://openreview.net/forum?id=1v0ULVJOZ9">[NeurIPS '25]</a>
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547?casa_token=lmT7m8-i3KwAAAAA:6Y20g4ZMUHBxqfi5Zjo5MZRC-NlXuGDTptrWV7vP6kXXGRB2lKdFwcBpVcntruaIMXuxB7sbCJE">[Information Systems (2025)]</a> 
+                <a href="https://dl.acm.org/doi/abs/10.1145/3681771.3699910">[HuMob@SIGSPATIAL '24]</a>
+            </li>
+            <li>
+                <b>Memory retrieval, memory-enhanced models, and memory editing techniques.</b> 
+                <a href="https://arxiv.org/abs/2406.01514">[COLM ’26a]</a>
+                <a href="https://arxiv.org/abs/2405.17822">[arXiv]</a>
+                
+            </li>
+        </ul>
+
+        
+        <p style="color:black;">I am also broadly interested in the various applications of AI, e.g. Human Mobility (<a href="https://openreview.net/forum?id=1v0ULVJOZ9">[NeurIPS '25]</a><a href="https://dl.acm.org/doi/abs/10.1145/3681771.3699910">[HuMob@SIGSPATIAL '24]</a>), AI4Sci (<a href="https://openreview.net/forum?id=oyUiJmkD7H">[ICML '25]</a>) and AI4Finance.</p>
+        
+        <p style="color:black;">Topics I worked on in the past (before my Ph.D. studies):</p>
+        <ul> 
+            <li>
+                <b>Multimodality</b>, including Video Question Answering and Visual Question Answering. 
+                <a href="https://ieeexplore.ieee.org/abstract/document/10309342/">[ROMAN '23]</a>
+            </li>
+            <li>
+                <b>Human-Robot Interaction.</b> 
+                <a href="https://ieeexplore.ieee.org/abstract/document/10309342/">[ROMAN '23]</a>
+            </li>
+            <li>
+                <b>Reinforcement Learning.</b> 
+                <a href="https://ieeexplore.ieee.org/abstract/document/10069446/">[ICMLA '22]</a>
+            </li>
+            <li><b>Natural Language Understanding.</b></li>
+            <li>
+                <b>Question Answering.</b> 
+                <a href="https://link.springer.com/chapter/10.1007/978-3-030-73103-8_32">[FICC '21]</a>
+            </li>
+        </ul>
+
+        <p style="color:black;">
+            Besides schoolwork and research, I have developed interests in many activities over time, including 
+            photography, hiking, and traveling.
+        </p>
+
+        
+        <b>Open Invitation: Individual Support Office Hours</b>
+         <p style="color:black;">
+            I dedicate 1 hours weekly for master, undergrad and high school outreach students to chat about Research, Grad School, and National Parks.
+
+            Please fill out this <a href="https://calendar.app.google/Mdc7ahsSBdpQ7T3J7">link</a> to schedule a chat :)
+             </p>
     </div>
 </div>
+
+
+

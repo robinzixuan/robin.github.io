@@ -1,40 +1,137 @@
 <div class="container" id="i18_news">
   <div class="row m-b-lg">
-      <div class="col-lg-12 text-center">
-          <div class="navy-line"></div>
-          <h1><span data-i18n="news.my_news">News</span></h1>
-      </div>
+    <div class="col-lg-12 text-center">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="news.my_news">News</span></h1>
+    </div>
   </div>
 
-  <ul>
-  <li><p>
-    A conference paper <a href="https://arxiv.org/abs/2206.05860">"IGN : Implicit Generative Networks"</a> is accepted by ICMLA 2022.
-  </p>
-  </li>
-  <li><p>
-    I start my PhD study in Northwestern University!
-  </p>
-  </li>
+  <!--
+    News importance:
+    - default: low, so normal items can omit data-importance
+    - important: add data-importance="high" to the <li>
+    Example: <li data-importance="high"><p><b>2026.5:</b> ...</p></li>
+  -->
+  <ul id="news-list">
+    <li><p><b>2026.10:</b> Received a MIT–Anthropic — Claude Usage Credits Award to support my work in AI for Science and AI Safety.</p></li>
+    <li data-importance="high"><p><b>2026.9:</b> Our paper <a href="https://arxiv.org/abs/2605.17887">Attention Sinks and Outliers in Attention Residuals</a> has been accepted by NeurIPS 2026.</p></li>
+    <li data-importance="high"><p><b>2026.8:</b> Our paper <a href="https://arxiv.org/abs/2605.29268">Compute Allocation in Evolutionary Search: From Depth-Breadth to Multi-Armed Bandits</a> has been accepted by EMNLP 2026.</p></li>
+    <li><p><b>2026.8:</b> Received a <a href="https://colm.eventhosts.cc/">Travel Grant</a> to attend COLM 2026.</p></li>
+    <li><p><b>2026.8:</b> Our workshop paper <a href="https://openreview.net/forum?id=qwpuogtHO5">Attention-based Reasoning Outlier Removal for Efficient Reasoning</a>，<a href="https://openreview.net/forum?id=jvhFMQF8IE">Decoupled Alignment for Robust Plug-and-Play Adaptation</a>, <a href="https://openreview.net/forum?id=0PofruEAiM">Contrastive Reasoning Alignment: Reinforcement Learning from Hidden Representations</a> and <a href="https://openreview.net/forum?id=KAoEl6r3Sl">Attention Sinks and Outliers in Attention Residuals</a> have been accepted to the 2nd Workshop on Efficient Reasoning at COLM 2026.</p></li>
+    <li data-importance="high"><p><b>2026.8:</b> Honored to receive the Tinker's <a href="https://thinkingmachines.ai/news/tinker-research-and-teaching-grants/">Research Grant Program</a>: $5000.</p></li>
+    <li><p><b>2026.7:</b> I received $1,000 from the <a href="https://openai.com/form/researcher-access-program/">OpenAI Research Access Program</a>.</p></li>
+    <li data-importance="high"><p><b>2026.7:</b> Our paper <a href="https://openreview.net/forum?id=6EJ27eMSBB">Decoupled Alignment for Robust Plug-and-Play Adaptation</a> and <a href="https://openreview.net/forum?id=QTehV2Qncq">Agent Q-Mix: Selecting the Right Action for LLM Multi-Agent Systems through Reinforcement Learning</a> have been accepted by COLM 2026.</p></li>
+    <li data-importance="high"><p><b>2026.5:</b> Our COLM 2026 workshop proposal has been accepted. We will host <a href="https://wdlctc.github.io/efficient-reasoning-2026/">the 2nd Workshop on Efficient Reasoning</a> at COLM 2026.</p></li>
+    <li><p><b>2026.5:</b> Our workshop paper <a href="https://openreview.net/forum?id=EA3dvDXRAt">Demystifying Thinking With Images</a> has been accepted to the 2nd Workshop on Multi-Modal Reasoning for Agentic Intelligence at CVPR 2026.</p></li>
+    <li data-importance="high"><p><b>2026.5:</b> I was recognized as a Silver Reviewer at International Conference on Machine Learning 2026.</p></li>
+   <li><p><b>2026.5:</b> I will be interning at ByteDance as a Research Scientist.</p></li>
+    <li data-importance="high"><p><b>2026.4:</b> Our paper <a href="https://openreview.net/forum?id=56cQPBIg4R">Contrastive Reasoning Alignment: Reinforcement Learning from Hidden Representations</a> and <a href="https://openreview.net/forum?id=PfIAcdbce2">AdvEvo-MARL: Shaping Internalized Safety through Adversarial Co-Evolution in Multi-Agent Reinforcement Learning</a> have been accepted by ICML 2026.</p></li>
+    <li><p><b>2026.4:</b> Our workshop papers <a href="https://openreview.net/forum?id=eSszgCqCEL">FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning</a> and <a href="https://arxiv.org/abs/2112.02994">IBERT: Idiom Cloze-style reading comprehension with Attention</a> have been accepted by UIUC MLDS 2026.</p></li>
+    <li data-importance="high"><p><b>2026.3:</b> Received an <a href="https://allocations.access-ci.org/">750K NSF ACCESS Discover Research Grant CIS260386</a> to support my work in AI safety.</p></li>
+    <li><p><b>2026.3:</b> Received a <a href="https://iclr.cc/Conferences/2026/FinancialAssistance">Travel Grant</a> to attend ICLR 2026.</p></li>
+    <li><p><b>2026.3:</b> Our workshop papers <a href="https://openreview.net/forum?id=eSszgCqCEL">FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning</a> and <a href="https://openreview.net/forum?id=tXRUpMp7xO">TIDES: Test-time Inference Drift Exploitation via Scalingn</a> have been accepted by ES-Reasoning@ICLR 2026.</p></li>
+    <li data-importance="high"><p><b>2026.2:</b> Honored to be selected as an <a href="https://research.adobe.com/gem-fellowship/">Adobe Fellow</a> for the Spring quarter.</p></li>
+    <li><p><b>2026.1:</b> I am serving as a TA for CS377.</p></li>
+    <li data-importance="high"><p><b>2026.1:</b> Our paper <a href="https://openreview.net/forum?id=a9dngZLqGS">FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning</a> has been accepted by ICLR 2026.</p></li>
+    <li><p><b>2025.12:</b> Our ICLR 2026 workshop proposal has been accepted. We will host <a href="https://sites.google.com/ucsd.edu/efficient-spatial-reasoning/home?read_current=1">the First Workshop on Efficient Spatial Reasoning</a> at ICLR 2026.</p></li>
+    <li><p><b>2025.11:</b> Honored to receive the Lambda's <a href="https://lambda.ai/research">Research Grant Program</a>: $2000.</p></li>
+    <li data-importance="high"><p><b>2025.11:</b> I have been selected as a <a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows">DAAD AINeT Fellow</a> for the Postdoc-NeT-AI 11/2025 program on Explainable AI.</p></li>
+    
+
+    <!-- Older items (auto-hidden by JS) -->
+    <li><p><b>2025.9:</b> I am serving as a TA for CS348 and CS450.</p></li>
+    <li data-importance="high"><p><b>2025.9:</b> Our paper <a href="https://openreview.net/forum?id=1v0ULVJOZ9">RHYTHM: Reasoning with Hierarchical Temporal Tokenization for Human Mobility</a> has been accepted by NeurIPS 2025.</p></li>
+    <li><p><b>2025.7:</b> Our workshop paper <a href="https://arxiv.org/abs/2208.10241">SciAnnotate</a> has been accepted by NewInML@ICML 2025.</p></li>
+    <li><p><b>2025.7:</b> Our workshop papers <a href="https://openreview.net/forum?id=i3JYPgwwAj">Outlier-Free Genomic Foundation Models</a> and <a href="https://openreview.net/forum?id=DCvCv02uNf">Efficient Temporal Tokenization</a> have been accepted by ES-FoMo@ICML 2025.</p></li>
+    <li><p><b>2025.6:</b> Our workshop paper <a href="https://openreview.net/forum?id=p5zaXPgMvh">Knowledge-Distilled Memory Editing</a> has been accepted by MemFM@ICML 2025.</p></li>
+    <li data-importance="high"><p><b>2025.6:</b> Our paper <a href="https://www.usenix.org/system/files/usenixsecurity25-yu-jiahao.pdf">Mind the Inconspicuous</a> has been accepted by USENIX Security 2025.</p></li>
+    <li><p><b>2025.5:</b> Our paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306437925000547">SMUTF</a> has been accepted by Information Systems.</p></li>
+    <li data-importance="high"><p><b>2025.5:</b> Our paper <a href="https://openreview.net/forum?id=oyUiJmkD7H">Fast and Low-Cost Genomic Foundation Models</a> has been accepted by ICML 2025.</p></li>
+    <li><p><b>2025.3:</b> This summer, I will be interning at RTX as an LLM Research Scientist.</p></li>
+    <li><p><b>2025.1:</b> Our paper <a href="https://openreview.net/forum?id=1BdPHbuimc">Chain-of-Action</a> has been accepted by ICLR 2025.</p></li>
+    <li><p><b>2025.1:</b> I am serving as a TA for CS368.</p></li>
+    <li><p><b>2025.1:</b> I received $1,000 from the <a href="https://openai.com/form/researcher-access-program/">OpenAI Research Access Program</a>.</p></li>
+    <li data-importance="high"><p><b>2024.10:</b> Workshop paper accepted at ACM SIGSPATIAL Human Mobility Prediction Challenge (top-1 DTW).</p></li>
+    <li><p><b>2024.9:</b> Research Assistant in <a href="https://www.dashunwang.com/group">Dashun's Lab</a>.</p></li>
+    <li data-importance="high"><p><b>2024.5:</b> Our paper <a href="https://openreview.net/forum?id=ZCrRCICOkr">OutEffHop</a> has been accepted by ICML 2024.</p></li>
+    <li><p><b>2024.7:</b> Two workshop papers accepted by ES-FoMo@ICML 2024.</p></li>
+    <li><p><b>2024.4:</b> I received $5,000 from the OpenAI Research Access Program.</p></li>
+    <li><p><b>2023.6:</b> PC member for EMNLP 2023 (Industry Track).</p></li>
+    <li><p><b>2023.4:</b> Paper accepted by RO-MAN 2023.</p></li>
+    <li><p><b>2022.10:</b> Paper accepted by ICMLA 2022.</p></li>
+    <li><p><b>2022.9:</b> Started my Ph.D. at Northwestern University.</p></li>
   </ul>
+
+  <!-- Toggle button -->
+  <div class="text-center" style="margin-top: 10px;">
+    <button id="toggle-news" class="btn btn-sm btn-outline-primary">
+      Show more
+    </button>
+  </div>
+
+  <!-- Styles -->
+  <style>
+    #news-list li.hidden {
+      display: none;
+    }
+  </style>
+
+  <!-- Logic: show 10 important news items first, then reveal everything on demand. -->
   <script>
-  function openNav() {
-      if (window.innerWidth <= 1200) {
-          document.getElementById("layout-menu").style.width = "280px";
-          document.getElementById("layout-content-container").style.marginLeft = "280.8px";
-          document.getElementById("layout-content-container").style.position = "fixed";
+    (function () {
+      const MAX_VISIBLE = 10;
+      const HIGH_IMPORTANCE = "high";
+      const DEFAULT_IMPORTANCE = "low";
+      const items = Array.from(document.querySelectorAll("#news-list li"));
+      const btn = document.getElementById("toggle-news");
+
+      const highItems = items.filter((li) => {
+        return (li.dataset.importance || DEFAULT_IMPORTANCE).toLowerCase() === HIGH_IMPORTANCE;
+      });
+      const collapsedItems = (highItems.length ? highItems : items).slice(0, MAX_VISIBLE);
+      const collapsedSet = new Set(collapsedItems);
+
+      if (items.length <= collapsedItems.length) {
+        btn.style.display = "none";
+        return;
       }
-  }
-  function closeNav() {
-      if (window.innerWidth <= 1200) {
-          document.getElementById("layout-menu").style.width = "0";
-          document.getElementById("layout-content-container").style.position = "static";
-          document.getElementById("layout-content-container").style.marginLeft = "0px";
-          setInterval(
-              function(){ location.reload() },
-              500
-          );
+
+      let expanded = false;
+
+      function renderNews() {
+        items.forEach((li) => {
+          li.classList.toggle("hidden", !expanded && !collapsedSet.has(li));
+        });
+        btn.textContent = expanded ? "Show less" : "Show more";
       }
-  }
+
+      renderNews();
+
+      btn.addEventListener("click", function () {
+        expanded = !expanded;
+        renderNews();
+      });
+    })();
+  </script>
+
+  <!-- Existing nav logic (unchanged) -->
+  <script>
+    function openNav() {
+      if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "280px";
+        document.getElementById("layout-content-container").style.marginLeft = "280.8px";
+        document.getElementById("layout-content-container").style.position = "fixed";
+      }
+    }
+    function closeNav() {
+      if (window.innerWidth <= 1200) {
+        document.getElementById("layout-menu").style.width = "0";
+        document.getElementById("layout-content-container").style.position = "static";
+        document.getElementById("layout-content-container").style.marginLeft = "0px";
+        setTimeout(function () { location.reload(); }, 500);
+      }
+    }
   </script>
 </div>
+
 <br>

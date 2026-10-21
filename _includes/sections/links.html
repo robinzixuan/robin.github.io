@@ -21,16 +21,30 @@
             <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
             <p>{{ link.desc }}</p>
             <ul class="list-inline social-icon">
-                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
+                <li><a href="{{ link.website }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i></a>
                 </li>
             </ul>
         </div>
         </div>
     {% endfor %}
     </div>
+    <div style="text-align:center; margin-top:20px;">
+      <!-- MapMyVisitors flat map (ClustrMaps is gone); w=a sizes it to this box -->
+      <div style="display:inline-block; width:100%;">
+        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=cXRe4TTp8gaankEpU9BZ8_jq6-NBk5tSOnPF58HQRiE&cl=ffffff&w=a"></script>
+      </div>
+    </div>
+
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <!-- views counter via vercount (the old jack003 counter service is gone); hidden until the count loads -->
+            <style>.site-pv:has(> .navy:empty) { display: none; }</style>
+            <p><span class="site-pv"><span class="navy" id="vercount_value_site_pv"></span>&nbsp;<span data-i18n="link.view">views</span>&nbsp;||&nbsp;</span><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+            <script defer src="https://events.vercount.one/js"></script>
         </div>
     </div>
+
+
 </div>
+
+

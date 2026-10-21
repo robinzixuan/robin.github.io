@@ -4,13 +4,19 @@
   i18n: nav.about_me
   name: About
   tpl: about.html
-  css: 
+  CSS: 
+
+
+
+
+
 
 - id: news
   i18n: nav.news
   name: News
   tpl: news.html
   css: 
+
 
 
 - id: education
@@ -41,6 +47,25 @@
   css: timeline
 
 
+- id: talk
+  i18n: talks
+  name: Talks
+  tpl: talks.html
+  css: 
+
+- id: sevice
+  i18n: nav.sevice
+  name: Service
+  tpl: sevice.html
+  css: 
+
+- id: mentor
+  i18n: nav.mentor
+  name: Collaboration
+  tpl: mentor.html
+  css: 
+
+
 - id: skills
   i18n: nav.skills
   name: Skills
@@ -58,7 +83,9 @@
   i18n: nav.awards
   name: Awards
   tpl: award.html
-  css: 
+  CSS: 
+
+
 
 
 
@@ -68,11 +95,7 @@
   tpl: miscellaneous.html
   css: 
 
-- id: Contact
-  i18n: nav.contact
-  name: Contact
-  tpl: contact.html
-  css: Contact
+
 
 
 
@@ -81,4 +104,15 @@
   name: Links
   tpl: links.html
   css: contact
+
+# external links: shown in the navbar only (no section rendered)
+- id: oasis
+  i18n: nav.oasis
+  name: OASIS
+  page: https://oasis-research.github.io/
+
+- id: glb2
+  i18n: nav.glb2
+  name: GLB²
+  page: https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/
 
