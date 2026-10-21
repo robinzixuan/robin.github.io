@@ -5,7 +5,7 @@ title: Robin(Haozheng) Luo
 description: Jack's blog,use Jekyll and github pages.
 keywords: Robin
 baseurl:  '/robin.github.io' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://hluo76.github.io/robin.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://hluo.github.io/robin.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /robin.github.io/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
@@ -18,18 +18,19 @@ author:   # change following line to your infomation.
   github_username: robinzixuan  # Leave blank if you don't have now
   linkedin_id: robinluo-18gatech # Leave blank if you don't have now
   facebook_username: Robin Luo  # Leave blank if you don't have now
-  twitter_username: RobinZixuan  # Leave blank if you don't have now
+  twitter_username: robinluo1997  # Leave blank if you don't have now
   email: luohaozh@gmail.com  # Leave blank if you don't have now
   phone: 8592709279
   instagram: robinzixuan1997
-  cv: https://drive.google.com/file/d/11chTmRghTIrmgeiFB-S5CZczX5EBySpo/view?usp=sharing # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/file/d/19y9inWeUZElMUq7lq0wR2JbQ457ubQDb/view?usp=sharing # An online CV can be printed as PDF, leave blank if you don't have now
+  org_link: https://growing-llms-beyond-boundaries.github.io/growing-llms-beyond-boundaries.io/
   skill_icon1:
     - name: icon-ghost
     - name: icon-go
   skill_icon2:
     - name: icon-go
     - name: icon-ghost
-  desc: Computer Science PhD ∈ Northwestern University  # Describe yourself.
+  desc: Computer Science PhD ∈ Northwestern University, Adobe Fellow and a DAAD AINeT Fellow, Founder of GLB² # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
@@ -38,8 +39,8 @@ disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your c
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: 185745846
+# ga:  # Universal Analytics was shut down by Google; disabled to avoid loading a dead third-party script.
+#   id: 185745846
 
 ## google optimize
 go:
@@ -70,3 +71,22 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Files that must NOT be published to the website (Jekyll 3 replaces its defaults
+# when this key is set, so the defaults are repeated here).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - build
+  - markdown_generator
+  - readme_files
+  - talkmap.py
+  - talkmap.ipynb
+  - temp.py
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - blog/donate.html   # template author's donation page (his PayPal/Alipay), not yours
