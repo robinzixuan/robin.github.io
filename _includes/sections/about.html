@@ -23,28 +23,28 @@
                 <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
                 <ul class="list-inline social-icon">
                     {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="https://github.com/{{ site.author.github_username }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt"></i></a></li>
                     {% endif %}
                     {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
                     {% endif %}
                     {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/profile.php?id=100010607108858" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010607108858" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
                     {% endif %}
                     {% if site.author.email %}
                     <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
                     {% if site.author.phone %}
-                    <li><a href="tel:{{ site.author.phone }}" target="blank"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+                    <li><a href="tel:{{ site.author.phone }}"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.instagram %}
-                    <li><a href="https://www.instagram.com/{{ site.author.instagram }}" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/{{ site.author.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     {% endif %}
                     {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    <li><a href="{{ site.author.cv }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-file-pdf-o"></i></a></li>
                     {% endif %}
                 </ul>
             </div>
