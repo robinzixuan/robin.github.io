@@ -3,7 +3,8 @@
   HTTP response headers. Keep this as the first thing in <head>, before any script.
   Mirror any change here in the Cloudflare response-header rule (if enabled).
   Meta CSP cannot express frame-ancestors / X-Frame-Options; those need real headers.
-  'unsafe-eval' is required only by the MapMyVisitors widget (it eval()s its JSONP reply).
+  'unsafe-eval' and code.jquery.com are required only by the MapMyVisitors widget
+  (it loads its own jQuery and eval()s its JSONP reply).
 {% endcomment %}
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://static.addtoany.com https://disqus.com https://*.disqus.com https://*.disquscdn.com https://mapmyvisitors.com https://events.vercount.one; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src 'self' https:; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://static.addtoany.com https://disqus.com https://*.disqus.com https://*.disquscdn.com https://mapmyvisitors.com https://*.mapmyvisitors.com https://code.jquery.com https://events.vercount.one; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src 'self' https:; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
