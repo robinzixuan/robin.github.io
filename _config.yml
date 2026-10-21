@@ -39,8 +39,8 @@ disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your c
 
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: 185745846
+# ga:  # Universal Analytics was shut down by Google; disabled to avoid loading a dead third-party script.
+#   id: 185745846
 
 ## google optimize
 go:
@@ -71,3 +71,22 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Files that must NOT be published to the website (Jekyll 3 replaces its defaults
+# when this key is set, so the defaults are repeated here).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - build
+  - markdown_generator
+  - readme_files
+  - talkmap.py
+  - talkmap.ipynb
+  - temp.py
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - blog/donate.html   # template author's donation page (his PayPal/Alipay), not yours
